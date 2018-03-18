@@ -6,4 +6,6 @@ sidebar:
     text: Details yet to be added.
 ---
 
-Details yet to be added.
+A chatbot which generates donations through surveys.
+
+> Project details and github links will be up by 25/03/18.

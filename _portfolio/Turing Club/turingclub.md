@@ -6,4 +6,6 @@ sidebar:
     text: Details yet to be added.
 ---
 
-Details yet to be added.
+A HKU group of technical and non-technical students working on smart campus solutions.
+
+> Project details and github links will be up by 25/03/18.

@@ -6,4 +6,6 @@ sidebar:
     text: Details yet to be added.
 ---
 
-Details yet to be added.
+A chatting web app made entirely in MEAN.
+
+> Project details and github links will be up by 25/03/18.
