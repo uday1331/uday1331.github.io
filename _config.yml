@@ -63,7 +63,7 @@ defaults:
       author_profile: true
   # _posts
   - scope:
-      path: ""
+      path: "blog"
       type: posts
     values:
       layout: single
@@ -81,7 +81,6 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
 
 comments:
   provider: "disqus"
