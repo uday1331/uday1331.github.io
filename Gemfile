@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
-#gem "github-pages", group: :jekyll_plugins
+#gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
 
 # changed theme
 gem "minimal-mistakes-jekyll"
