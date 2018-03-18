@@ -36,9 +36,9 @@ author:
   linkedin         : "waqasaliabbasi"
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /blog/:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 breadcrumbs: true
 words_per_minute: 100
 
