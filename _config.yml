@@ -25,6 +25,11 @@ twitter_username: Waqas_AliAbbasi
 github_username:  WaqasAliAbbasi
 repository: WaqasAliAbbasi/WaqasAliAbbasi.github.io
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-46712607-5"
+
 # Site Author
 author:
   name             : "Waqas Ali"
