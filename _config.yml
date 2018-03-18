@@ -19,11 +19,16 @@ email: waqas.abbasi@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a HKU '20 who loves all things tech and chikoo milkshake.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://waqasaliabbasi.com" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/relatedpostfallback.jpg
 twitter_username: Waqas_AliAbbasi
 github_username:  WaqasAliAbbasi
 repository: WaqasAliAbbasi/WaqasAliAbbasi.github.io
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "waqasaliabbasi"
 
 analytics:
   provider: "google-gtag"
@@ -61,7 +66,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
   # _posts
   - scope:
       path: ""
@@ -82,11 +86,6 @@ defaults:
       author_profile: false
       comments: true
       share: true
-
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "waqasaliabbasi"
 
 include:
   - _pages
