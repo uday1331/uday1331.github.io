@@ -79,7 +79,14 @@ defaults:
     values:
       layout: single
       author_profile: false
+      comments: true
       share: true
+      related: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "waqasaliabbasi"
 
 include:
   - _pages
