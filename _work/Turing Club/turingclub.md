@@ -19,6 +19,7 @@ A HKU group of technical and non-technical students working on smart campus solu
 ## Information
 
 Founded: March, 2018
+
 Team Structure:
 
 1. Technical Team
