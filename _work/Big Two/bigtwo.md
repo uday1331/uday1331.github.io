@@ -21,11 +21,11 @@ A full-featured multiplayer networked card game made in Java.
 
 {% include gallery caption="These are screenshots of the big two game." %}
 
-#### Links
+## Links
 
 * [Github](http://github.com/WaqasAliAbbasi/BigTwo)
 
-#### Design
+## Design
 
 1. OOP(Object Oriented Programming) approach to conveniently handle complex game mechanics and rules
 2. Java GUI for the client
@@ -34,7 +34,7 @@ A full-featured multiplayer networked card game made in Java.
 5. Java Sockets to handle network multiplayer
 6. Proper comments and documentation has been made for all classes and methods
 
-### Game rules
+## Game rules
 
 The basis of Big Two is a race to get rid of your cards. It supports 2, 3 or 4 players with one deck, and up to 8 players with two decks shuffled together. You will be dealt 13 cards in each game, and you can play these cards in four different ways:
 

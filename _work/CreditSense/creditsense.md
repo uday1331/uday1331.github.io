@@ -5,7 +5,7 @@ header:
   teaser: model.png
 sidebar:
   - title: "CreditSense"
-    image: logo.png
+    image: creditsenselogo.png
     image_alt: "Logo"
     text: A decentralized platform for automated credit scoring.
 gallery:
@@ -18,23 +18,19 @@ A decentralized platform for automated credit scoring.
 
 {% include gallery caption="CreditSense" %}
 
-#### Links
+## Links
 
 * [Github](https://github.com/piy0999/CreditSense)
 
-#### Awards
+## Awards
 
 * Winner Microsoft Imagine Hack 2018
 
-#### Summary
+## Summary
 
 A decentralised credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, deliquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
 
-A flow chart describing the overall application is as follows:
-
-<p align="center">
-  <img src="model.png" width="800"/>
-</p>
+A flow chart describing the overall application is the gallery above.
 
 1. Each bank has a loan application portal through which loan applicants generally input their sensitive data and upload important documents such as income-tax returns. This data is then converted into a JSON file to be stored on the blockchain ledger.
 
@@ -46,9 +42,9 @@ A flow chart describing the overall application is as follows:
 
 <b> Try having a look at our presentation for the project under presentation folder in the repository </b>
 
-# System Technicalities
+## System Technicalities
 
-We have a deployable prototype of our solution already running. We also have a made short walkthrough video of the system which can be seen on: https://vimeo.com/253112175
+We have a deployable prototype of our solution already running. We also have a made short walkthrough video of the system which can be seen on: [https://vimeo.com/253112175](https://vimeo.com/253112175).
 
 The solution has 4 layers which includes:
 
@@ -56,7 +52,7 @@ The solution has 4 layers which includes:
 
 <b>The Blockchain architecture:</b> Blockchain is the very base of our application architecture. The application stands due to the very reason that no one is in control of the system as a central manager which can be achieved through the blockchain. We are using ~~Private Ethereum Consortium Network~~ MultiChain to achieve this architecture which provides a secure private blockchain network in which each bank is a mining node which can access the whole blockchain ledger to access the data shared among all the banks which can also be accessed by the machine learning node where our reinforced machine learning model is deployed to return the most accurate credit score. The blockchain is connected to the frontend using Python Flask API. Flask also comes into play when the credit score is returned to the frontend of the bank for bank’s further processing.
 
-#### Setup
+## Setup
 
 1. To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_master.sh | bash /dev/stdin`
 2. Allow the port for incoming connections in network settings
@@ -66,7 +62,7 @@ The solution has 4 layers which includes:
 
 <b>Reinforced Learning:</b> This serves as an extension to the model that already resides on the machine learning node and exists to learn from the implications the real world had from the analysis it did. The deep reinforced learning allows the model to learn from the predictions it made and further analyse the features that caused the specific loan applicant to default on his loan and would look for a trend in similar loan applications. This enables banks to find similar loan applicant profiles and take counter measures accordingly to make a much safer investment.
 
-# Why are we Different?
+## Why are we Different?
 
 Secure Anonymous Data Sharing - Applicant data is shared by all the banks on a private blockchain ledger which maintains the security of the data due to a private network formation but at the same time does not contain any personal identifiers with the HKID number being hashed and stored on the block securely. Enabling faster, secure and anonymized data sharing.
 
@@ -74,7 +70,7 @@ Decentralization removes the need for third party agencies like TransUnion - As 
 
 No hard coded credit score formula - As we are implementing reinforced learning on our machine learning model we actually take into consideration in addition to our existing machine learning model parameters such as the employment history of the individual, the age but also when and in what time was the loan repaid and whether the applicant was able to repay or not. Through reinforced learning the calculation formula keeps getting better and this eliminates the need of a static mathematical formula.
 
-# Our Target Customers
+## Our Target Customers
 
 We have three main target customers:
 
@@ -83,5 +79,3 @@ Banks → Banks can directly receive user data for calculating credit score on s
 Loan Applicants → Applicants can directly submit the requisite data required for credit score processing using the frontend integrated with the bank’s cyberbanking services with complete anonymity to the decentralized blockchain architecture.
 
 Government (i.e.: Financial regulators) → With the ease in acquiring a standardized credit score, governments could benefit from the increasingly accurate data by leveraging its ability to distinguish the financial capabilities of its citizens. Consequently, via data analyses, the government could derive or be one of the indicators to determine the economic stability of the region as a whole. This could be achieved by implementing a government node on the blockchain and having a specific machine learning model for their analysis in the form of anonymized data.
-
-Credit Sense makes Sense!

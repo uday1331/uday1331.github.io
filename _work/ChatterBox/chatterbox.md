@@ -24,7 +24,7 @@ A chatting web app made entirely in MEAN.
 
 {% include gallery caption="These are screenshots of the chatting web app." %}
 
-#### Links
+## Links
 
 * [Github](http://github.com/WaqasAliAbbasi/ChatterBox)
 
@@ -37,14 +37,14 @@ This is a fully working chatting app with the following features:
 5. Real-time update of unread messages and messages
 6. Responsive Minimal Design
 
-### Tech
+## Tech
 
 It's built using MEAN (Mongo, Express, Angular, Node.js)
 
-#### Front-end
+### Front-end
 
 Check `myscripts.js` in `public\javascripts` for Angular code and `mystyles.css` in `public\stylesheets` for CSS styling.
 
-#### Back-end
+### Back-end
 
 It's powered by MongoDB at the backend and monk is used to interact with the database.

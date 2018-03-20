@@ -21,17 +21,17 @@ An attempt to simplify email by employing a minimal approach to design.
 
 {% include gallery caption="These are screenshots of the responsive design." %}
 
-#### Links
+## Links
 
 * [Github](https://github.com/waqasaliabbasi/epicmail)
 * [Demo](http://i.cs.hku.hk/%7Ewali/assignment1/webmail)
 
-#### Tech
+## Tech
 
-##### Front-end
+### Front-end
 
 It's a responsive front-end made using html/css/jQuery.
 
-##### Back-end
+### Back-end
 
 I have emulated the email backend using PHP.
