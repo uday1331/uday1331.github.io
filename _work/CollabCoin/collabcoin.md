@@ -2,7 +2,7 @@
 title: "CollabCoin"
 excerpt: "A decentralized crowdsourced investment fund."
 header:
-  teaser: grand_finals.JPG
+  teaser: scbgrandfinals.jpg
 sidebar:
   - title: "CollabCoin"
     image: collabcoinlogo.png
