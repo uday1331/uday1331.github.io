@@ -1,12 +1,12 @@
 ---
 layout: archive
-permalink: /portfolio/
-title: "Portfolio"
+permalink: /work/
+title: "Projects"
 author_profile: true
 ---
 
 <div class="grid__wrapper">
-  {% for post in site.portfolio %}
+  {% for post in site.work %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>

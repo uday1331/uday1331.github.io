@@ -19,6 +19,6 @@ gallery:
 
 After going through a lot of trouble to find notes for my O Level and A Level studies, I had compiled a lot of useful stuff and after my exams these files were just lying there. A few juniors had asked for these files and I thought why not share them with everyone. That is why I created this website. All advertisement earnings go towards hosting and domain expenditures.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="These are screenshots of the home and subject pages." %}
 
 The website is hosted on WordPress and plugins are used for SEO and social media marketing. Actual notes are stored on a premium dropbox account and they are embedded in a static way so they appear in search engine scrapings. Each subject page has a lot of unique content about the subject to improve SEO. Breadcrumbs are used for proper structing in search results. It's also made responsive so it can be easily used on any screen size.
