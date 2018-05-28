@@ -4,7 +4,7 @@ main:
     url: /assets/docs/resume.pdf
   - title: 'Projects'
     url: /work
-  #- title: "Projects"
-  #  url: /projects/
+  - title: "Achievements"
+    url: /achievements/
   - title: 'Blog'
     url: /blog
