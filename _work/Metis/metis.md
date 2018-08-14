@@ -16,7 +16,7 @@ gallery:
 
 A complete solution for SMEs to remain competitive against big labels and online shops.
 
-{% include gallery caption="Metis" %}
+{% include gallery %}
 
 ## Links
 

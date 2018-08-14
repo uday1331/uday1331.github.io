@@ -8,36 +8,39 @@ Below are all the events I have participated in. Achievements are in bold.
 
 ## 2018
 
+#### June
+* Societe Generale FinHACK 2018 - [Project](/work/nexusgraph)
+
 #### May
-* PolyU x Radica BigDatathon 2018 - **UBS Champion**
+* PolyU x Radica BigDatathon 2018 - **UBS Champion** - [Project](/work/obsidiansearch)
 * HKU STEM Symposium 2018 Mentor Training - Virtual Reality/Unity/Sketchup
 * CCMF (Cyberbort Creative Micro Fund) - **HKD$ 100,000 Seed Fund**
-* Imagine Cup Hong Kong Finals - **Runner-up**
+* Imagine Cup Hong Kong Finals - **Runner-up** - [Project](/work/creditsense)
 * Imagine Cup Hong Kong Finals - **Most Innovative Award**
 
 #### April
-* Hackust 2018
-* Innotech Law 2018
+* Hackust 2018 - [Project](/work/chairman)
+* Innotech Law 2018 - [Project](/work/parity)
 
 #### March
-* HKU Global Challenges, Local Solutions 2018 - **Runner-up**
-* Chi Sun Turing Club - **Founded**
-* Consilia HKU
+* HKU Global Challenges, Local Solutions 2018 - **Runner-up** - [Project](/work/chain)
+* Chi Sun Turing Club - **Founded** - [Project](/work/turingclub)
+* Consilia HKU - [Project](/work/consilia)
 
 #### February
-* Global Legal Hackathon 2018
+* Global Legal Hackathon 2018 - [Project](/work/egalex)
 * JCSVIII Speech Festival
 
 #### January
-* CityU Hackathon 2018
+* CityU Hackathon 2018 - [Project](/work/consilia)
 * Bank of China Hackathon 2018 - Round 1
 
 ## 2017
 
 #### December
-* SCB (Shanghai Commercial Bank) Grand Finals in Shanghai - **Runner-up**
+* SCB (Shanghai Commercial Bank) Grand Finals in Shanghai - **Runner-up** - [Project](/work/collabcoin)
 * HSBC Safeguard App Competition - **Runner-up**
-* Fifa 18 Ultimate Team Squad Grapher
+* Fifa 18 Ultimate Team Squad Grapher - [Project](/work/fut)
 
 #### November
 * SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong - **Winner**
@@ -54,4 +57,4 @@ Below are all the events I have participated in. Achievements are in bold.
 * Toastmasters HKU
 
 #### August
-* //oneweek (Microsoft Internal Hackathon) - **3rd Place**
+* //oneweek (Microsoft Internal Hackathon) - **3rd Place** - [Project](/work/metis)
