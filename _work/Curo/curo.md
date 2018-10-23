@@ -1,5 +1,6 @@
 ---
 title: "Curo"
+date: '2017-08-20T12:00:00.000+08:00'
 excerpt: "Curo, a social bot, reminds you to take surveys. The amount generated goes to social organizations and proof is sent back to users."
 header:
   teaser: curo2.jpg
@@ -32,18 +33,18 @@ Curo, a social bot, reminds you to take surveys. The amount generated goes to so
 
 Curo was created as a Microsoft Hong Kong Student Partners Technical Project. The team consists of three MSPs:
 
-1. Waqas Ali
-2. Alex Wada
-3. Charles Wong
+1.  Waqas Ali
+2.  Alex Wada
+3.  Charles Wong
 
 ## Technology
 
-1. Microsoft Bot Framework
-2. Node.js
-3. Azure
-4. SQL
+1.  Microsoft Bot Framework
+2.  Node.js
+3.  Azure
+4.  SQL
 
 ## What's Next
 
-1. Reminder timing optimization according to subscriber engagement
-2. NLP Processing
+1.  Reminder timing optimization according to subscriber engagement
+2.  NLP Processing

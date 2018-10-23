@@ -1,12 +1,11 @@
 ---
-layout: archive
-permalink: /work/
 title: "Projects"
+layout: collection
+permalink: /work/
+collection: work
+entries_layout: grid
+classes: wide
 author_profile: true
+sort_by: date
+sort_order: reverse
 ---
-
-<div class="grid__wrapper">
-  {% for post in site.work %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>

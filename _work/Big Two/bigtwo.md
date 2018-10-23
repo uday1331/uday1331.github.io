@@ -1,5 +1,6 @@
 ---
 title: "Big Two"
+date: '2017-12-04T12:00:00.000+08:00'
 excerpt: "A full-featured multiplayer networked card game made in Java."
 header:
   teaser: client.png
@@ -27,22 +28,22 @@ A full-featured multiplayer networked card game made in Java.
 
 ## Design
 
-1. OOP(Object Oriented Programming) approach to conveniently handle complex game mechanics and rules
-2. Java GUI for the client
-3. Proper use of exceptions for error handling
-4. Multi-threaded approach to handle networking
-5. Java Sockets to handle network multiplayer
-6. Proper comments and documentation has been made for all classes and methods
+1.  OOP(Object Oriented Programming) approach to conveniently handle complex game mechanics and rules
+2.  Java GUI for the client
+3.  Proper use of exceptions for error handling
+4.  Multi-threaded approach to handle networking
+5.  Java Sockets to handle network multiplayer
+6.  Proper comments and documentation has been made for all classes and methods
 
 ## Game rules
 
 The basis of Big Two is a race to get rid of your cards. It supports 2, 3 or 4 players with one deck, and up to 8 players with two decks shuffled together. You will be dealt 13 cards in each game, and you can play these cards in four different ways:
 
-1. As Singles (just one card)
-2. As Pairs (two cards of matching values)
-3. As Triplets or “Trips” (three cards of matching values)
-4. As Poker Hands (five cards forming a straight, flush, full house, four of a kind or straight flush)
-5. Note: you must play a fifth card with four of a kind to make a legitimate five card poker hand.
+1.  As Singles (just one card)
+2.  As Pairs (two cards of matching values)
+3.  As Triplets or “Trips” (three cards of matching values)
+4.  As Poker Hands (five cards forming a straight, flush, full house, four of a kind or straight flush)
+5.  Note: you must play a fifth card with four of a kind to make a legitimate five card poker hand.
 
 The game consists of a number of hands, each consisting of a number of rounds. Each hand begins by the players being dealt 13 cards (deal passes to the left after each hand).
 

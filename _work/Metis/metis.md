@@ -1,5 +1,6 @@
 ---
 title: "Metis"
+date: '2017-08-05T12:00:00.000+08:00'
 excerpt: "A complete solution for SMEs to remain competitive against big labels and online shops."
 header:
   teaser: metisgroup.jpg

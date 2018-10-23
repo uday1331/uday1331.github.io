@@ -1,5 +1,6 @@
 ---
 title: "Ella"
+date: '2017-01-21T12:00:00.000+08:00'
 excerpt: "A Personal Financial Assistant."
 header:
   teaser: ella2.png
@@ -38,15 +39,15 @@ After the imagineHack HK 2017, Microsoft asked us to work more on Ella. We have 
 
 ## In the Pipeline (as of 21 Feb 2017):
 
-1. OCR Receipt Recognition
-2. Speech to Text
-3. Auto-categorization
+1.  OCR Receipt Recognition
+2.  Speech to Text
+3.  Auto-categorization
 
 ## Team
 
-1. Waqas Ali
-2. Saad M. Ghani
-3. Muhammad Ali Farooqi
+1.  Waqas Ali
+2.  Saad M. Ghani
+3.  Muhammad Ali Farooqi
 
 ## Inspiration
 
@@ -56,12 +57,12 @@ Managing finances is a hectic job and requires a lot of input of data. We wanted
 
 Ella can do the following things:
 
-1. Track Expenses\Income\Loans
-2. Give you the reports you want
-3. Manage Different Wallets
-4. Handle Multiple Currencies
-5. Help You Save Money
-6. And even tell jokes
+1.  Track Expenses\Income\Loans
+2.  Give you the reports you want
+3.  Manage Different Wallets
+4.  Handle Multiple Currencies
+5.  Help You Save Money
+6.  And even tell jokes
 
 ## How we built it
 

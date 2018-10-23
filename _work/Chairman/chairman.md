@@ -1,5 +1,6 @@
 ---
 title: "Chairman"
+date: '2018-04-22T12:00:00.000+08:00'
 excerpt: "A R-CNN powered person detection model to cheaply detect free learning spaces around university campus."
 header:
   teaser: chairman_exhibition.jpg

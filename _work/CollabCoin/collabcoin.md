@@ -1,5 +1,6 @@
 ---
 title: "CollabCoin"
+date: '2017-12-03T12:00:00.000+08:00'
 excerpt: "A decentralized crowdsourced investment fund."
 header:
   teaser: scbgrandfinals.jpg
@@ -48,8 +49,8 @@ The flow charts describing the overall application is the gallery above.
 
 The product aims at making a Market-beating portfolio by
 
-1. Crowd-sourcing insights and capital
-2. Mix of Product to Mix of Talent
+1.  Crowd-sourcing insights and capital
+2.  Mix of Product to Mix of Talent
 
 Our TWO Target Groups
 
@@ -89,23 +90,23 @@ Check out the fourth image in the gallery above.
 
 ### As a Putter
 
-1. No more fuss when investing
-2. No more double charging
-3. Your capital is taken care of by the best-performing people
-4. Hedged risk from a diverse profile
+1.  No more fuss when investing
+2.  No more double charging
+3.  Your capital is taken care of by the best-performing people
+4.  Hedged risk from a diverse profile
 
 ### As a Bank
 
-1. Enter as a Putter & gain profit
-2. Enter as a Broker & gain profit
-3. Identify promising Players for recruitment
-4. ⬆ Lending opportunity
-5. Financial education ➡ generate business opportunities for own financial services
+1.  Enter as a Putter & gain profit
+2.  Enter as a Broker & gain profit
+3.  Identify promising Players for recruitment
+4.  ⬆ Lending opportunity
+5.  Financial education ➡ generate business opportunities for own financial services
 
 ### As a Player
 
-1. Earn commission with top-performing portfolios
-2. Leverage public capital
-3. Showcase their investment strategies for job prospect
-4. ⬆ Competency Level
-5. ⬆ Reputation
+1.  Earn commission with top-performing portfolios
+2.  Leverage public capital
+3.  Showcase their investment strategies for job prospect
+4.  ⬆ Competency Level
+5.  ⬆ Reputation

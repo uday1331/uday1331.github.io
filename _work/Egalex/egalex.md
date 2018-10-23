@@ -1,5 +1,6 @@
 ---
 title: "Egalex"
+date: '2018-01-25T12:00:00.000+08:00'
 excerpt: "A decentralized pro-bono network for law firms."
 header:
   teaser: app.png
@@ -42,11 +43,11 @@ To process this audio, we created an <b> in-house speech-to-text model </b>. Aft
 
 ## Business Model
 
-1. A server maintained by Egalex Foundation which hosts the in-house machine learning model and transaction node to access the network (private multichain or public ethereum or private ethereum)
-2. iOS and Play store fees paid by Egalex Foundation
-3. Egalex Foundation runs on charity on the model of Wikipedia
-4. In addition to Egalex foundation, anyone can contribute to open-source machine learning, network, app and front-end code.
-5. Each node kept up by the law firm by themselves. If they want help, they can pay the Egalex foundation for maintenance.
+1.  A server maintained by Egalex Foundation which hosts the in-house machine learning model and transaction node to access the network (private multichain or public ethereum or private ethereum)
+2.  iOS and Play store fees paid by Egalex Foundation
+3.  Egalex Foundation runs on charity on the model of Wikipedia
+4.  In addition to Egalex foundation, anyone can contribute to open-source machine learning, network, app and front-end code.
+5.  Each node kept up by the law firm by themselves. If they want help, they can pay the Egalex foundation for maintenance.
 
 ## Presentation
 
@@ -78,8 +79,8 @@ An LSTM machine learning model based on Keras to transcribe speech to text. The 
 
 A private network is formed via multichain. Setup.sh scripts have been prepared which can help setup a new law firm network in minutes.
 
-1. To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_master.sh | bash /dev/stdin`
-2. To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_node.sh | bash /dev/stdin {IP:PORT}`
+1.  To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_master.sh | bash /dev/stdin`
+2.  To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/Egalex/master/firm_node/multichain/setup_node.sh | bash /dev/stdin {IP:PORT}`
 
 The multichain blockchain stores the data for the cases in an encoded hexadecimal data stream format on the blockchain which is rendered on the frontend through our python flask restful API.
 

@@ -1,5 +1,6 @@
 ---
 title: "AzureCompare"
+date: '2017-08-31T12:00:00.000+08:00'
 excerpt: "A web app to easily search, filter, compare and plan Azure offerings."
 header:
   teaser: azurevmcompare.png

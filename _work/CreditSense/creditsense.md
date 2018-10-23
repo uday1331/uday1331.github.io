@@ -1,5 +1,6 @@
 ---
 title: "CreditSense"
+date: '2018-05-12T12:00:00.000+08:00'
 excerpt: "A decentralized platform for automated credit scoring."
 header:
   teaser: model.png
@@ -14,17 +15,28 @@ gallery:
     alt: "Business model"
 ---
 
-A decentralized platform for automated credit scoring.
+A decentralised credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, delinquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
 
 {% include gallery caption="CreditSense" %}
 
 ## Links
 
 * [Github](https://github.com/piy0999/CreditSense)
+* [creditsense.network](https://creditsense.network)
 
 ## Awards
 
-* Winner Microsoft Imagine Hack 2018
+* Imagine Hack 2018 _21-22 Jan_
+  * Winner
+  * Prize: Surface Pro (6999 HKD)
+* Bank of China Hackathon _9-10 Mar_
+* Imagine Cup Round 2 _26 Mar_
+* Imagine Cup Elite 10 (Finals) _11 May_
+  * Runner-up
+  * Most Innovative Ward
+  * Prize: 2000 HKD
+* CCMF _18 May_
+  * Seed Fund: 100,000 HKD
 
 ## Summary
 
@@ -32,13 +44,13 @@ A decentralised credit scoring service based on blockchain which employs deep le
 
 A flow chart describing the overall application is the gallery above.
 
-1. Each bank has a loan application portal through which loan applicants generally input their sensitive data and upload important documents such as income-tax returns. This data is then converted into a JSON file to be stored on the blockchain ledger.
+1.  Each bank has a loan application portal through which loan applicants generally input their sensitive data and upload important documents such as income-tax returns. This data is then converted into a JSON file to be stored on the blockchain ledger.
 
-2. The only entity that has access to this ledger during the whole process is the deep learning model. This model removes the need of feature engineering and helps us find optimal features from more than 73 features which go into consideration such as annual income, number of delinquencies etc. Upon careful feature engineering, these features to a logistic regression model which then computes the probability with which the specific applicant will default on the loan.
+2.  The only entity that has access to this ledger during the whole process is the deep learning model. This model removes the need of feature engineering and helps us find optimal features from more than 73 features which go into consideration such as annual income, number of delinquencies etc. Upon careful feature engineering, these features to a logistic regression model which then computes the probability with which the specific applicant will default on the loan.
 
-3. Once the credit score is computed, it is then displayed on the dashboard with other useful data analysis such as the previous history of loan applicants who fell in the same credit score range, income bracket, home ownership status etc. This dashboard is powered by Microsoft Azure Data Lake Analytics and Microsoft Power BI which makes it easier for the user makes sense out of the data being processed.
+3.  Once the credit score is computed, it is then displayed on the dashboard with other useful data analysis such as the previous history of loan applicants who fell in the same credit score range, income bracket, home ownership status etc. This dashboard is powered by Microsoft Azure Data Lake Analytics and Microsoft Power BI which makes it easier for the user makes sense out of the data being processed.
 
-4. The final step is more like an extension which works in the backdrop. Eventually, if the loan gets approved and the applicant either pays the amount or defaults, this information is fed to a reinforced machine learning model which learns that from the specific parameters and tries to understand what are specific factors which make applicants more likely to default. Thereby, the model learns from its own predictions and gets better with time as and when data is fed to it.
+4.  The final step is more like an extension which works in the backdrop. Eventually, if the loan gets approved and the applicant either pays the amount or defaults, this information is fed to a reinforced machine learning model which learns that from the specific parameters and tries to understand what are specific factors which make applicants more likely to default. Thereby, the model learns from its own predictions and gets better with time as and when data is fed to it.
 
 <b> Try having a look at our presentation for the project under presentation folder in the repository </b>
 
@@ -54,9 +66,9 @@ The solution has 4 layers which includes:
 
 ## Setup
 
-1. To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_master.sh | bash /dev/stdin`
-2. Allow the port for incoming connections in network settings
-3. To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_node.sh | bash /dev/stdin IP:PORT`
+1.  To create first node (establish a new network): `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_master.sh | bash /dev/stdin`
+2.  Allow the port for incoming connections in network settings
+3.  To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_node.sh | bash /dev/stdin IP:PORT`
 
 <b>The Machine Learning Node:</b> This node is the brain of the whole application as such. The process starts off with the deep learning model which consists of 2 layer neural network with 35 hidden neurons. The model removes the need to analyse each of the 73 factors and instead gives us the set of optimal features required to carry out the analysis with an improving accuracy of 92.71% (Currently migrating to RNN machine learning model with LSTM implementation). Upon finding the optimal features, the logistic regression model then accesses the data of those optimal features for the specific applicant on the ledger and then predicts the probability of the specific applicant to default on his loan. This analytics is further powered by Microsoft Azure Data Lake Analytics and Microsoft Power BI to create the necessary graphs and carry out the required analysis.
 

@@ -1,5 +1,6 @@
 ---
 title: "Epicmail"
+date: '2017-10-19T12:00:00.000+08:00'
 excerpt: "An attempt to simplify email by employing a minimal approach to design."
 header:
   teaser: desktop.png

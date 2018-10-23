@@ -1,5 +1,6 @@
 ---
 title: "Chain"
+date: '2018-03-23T12:00:00.000+08:00'
 excerpt: "A tech-driven social initiative that relies on viral techniques and gamification to gather volunteers at HKU."
 header:
   teaser: exponential_growth.png
@@ -39,10 +40,10 @@ A real-life scenario is:
 
 ## Team
 
-1. [Waqas Ali](https://waqasaliabbasi.com)
-2. [Harrison Li](http://harrisonli.org)
-3. [Ahmed Abbas Alvi](http://ahmedaalvi.com)
-4. [Rezaul Karim Tahrim](https://www.linkedin.com/in/mohd-rezaul-karim-tharim-300ab4155/)
+1.  [Waqas Ali](https://waqasaliabbasi.com)
+2.  [Harrison Li](http://harrisonli.org)
+3.  [Ahmed Abbas Alvi](http://ahmedaalvi.com)
+4.  [Rezaul Karim Tahrim](https://www.linkedin.com/in/mohd-rezaul-karim-tharim-300ab4155/)
 
 ## More Details
 

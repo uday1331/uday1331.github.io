@@ -1,5 +1,6 @@
 ---
 title: "NexusGraph"
+date: '2018-07-08T12:00:00.000+08:00'
 excerpt: "A 3D network visualization tool for new client identification with knowledge-based AI, for a wide variety of applications ranging from private equity, venture capital, private wealth management and many more."
 header:
   teaser: nexusgraph_teaser.png
@@ -33,19 +34,20 @@ A 3D network visualization tool for new client identification with knowledge-bas
 
 ## Team
 
-1. [Charles S.K. WONG](https://www.linkedin.com/in/charleswongsk/)
-2. [Jonathan Ma](https://www.linkedin.com/in/johnhorsema/)
-3. [Piyush Jha](https://www.linkedin.com/in/piyush-jha/)
-4. [Tarun Sudhams](https://www.linkedin.com/in/tarun-sudhams-560a6815a/)
-5. [Waqas](/)
-6. [Wing San Luk](https://www.linkedin.com/in/wing-san-luk-517766ab/)
+1.  [Charles S.K. WONG](https://www.linkedin.com/in/charleswongsk/)
+2.  [Jonathan Ma](https://www.linkedin.com/in/johnhorsema/)
+3.  [Piyush Jha](https://www.linkedin.com/in/piyush-jha/)
+4.  [Tarun Sudhams](https://www.linkedin.com/in/tarun-sudhams-560a6815a/)
+5.  [Waqas](/)
+6.  [Wing San Luk](https://www.linkedin.com/in/wing-san-luk-517766ab/)
 
 ## Details
 
 For the prototype the Hong Kong tech sector was targeted. Following data was obtained:
-1. All Hong Kong tech companies from `crunchbase.com`
-2. All investors of the above companies
-3. All news the above two entities have been mentioned in
+
+1.  All Hong Kong tech companies from `crunchbase.com`
+2.  All investors of the above companies
+3.  All news the above two entities have been mentioned in
 
 The graph visualized all the links between all entities, news, news sources and countries.
 
