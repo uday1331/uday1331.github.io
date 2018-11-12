@@ -58,7 +58,7 @@ Hosted by [Southwestern University of Finance and Economics](https://e.swufe.edu
 
 ## Awards
 
-The University of Hong Kong's team won **2nd place** and a prize money of **30,000 RMB**.
+Came **Runner-up** and won a prize money of **30,000 RMB**.
 
 ## Team
 

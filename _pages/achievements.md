@@ -9,6 +9,10 @@ Below are all the events I have participated in. Achievements are in bold.
 
 ## 2018
 
+#### November
+
+* Chengdu80 2018 - [Project](/work/pipo) - **Runner-up**
+
 #### October
 
 * SmarTone Hackathon 2018 - [Project](/work/fixit) - **Advanced to Round 2**
