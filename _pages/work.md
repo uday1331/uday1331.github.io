@@ -14,6 +14,6 @@ sort_order: reverse
   <span class="archive__subtitle" style="margin-top: 0px; border-bottom:0px">{{ site.work | size }} projects in reverse chronological order:</span>
 </div>
 <div style="float: right; width: 50%;">
-   <a href="/">Show Highlight Projects</a>
+   <a href="/" style="float: right;">Show Highlight Projects</a>
 </div>
 </div>
