@@ -44,7 +44,7 @@ gallery:
 
 You may be familiar with the concept of a company raising capital by an initial public offering (IPO). PIPO takes this capital-raising concept and applies it to individuals.
 
-Imagine having a personal IPO market for people who want to raise money by offering their personal shares and people who want to invest in them, especially friends and family. The investors of PIPO can share the future income of people they invested through “dividend” payments.
+Imagine having a personal IPO market for people who want to raise money by offering their personal shares and people who want to invest in them, especially friends and family. Through “dividend” payments, the investors of PIPO earn a share from the income of people they invest in.
 
 PIPO is a functional primary market exchange platform prototype that offers valuation and deal making for personal IPO investors.
 
@@ -90,7 +90,6 @@ viewer?embedded=true&url=https://github.com/WaqasAliAbbasi/Chengdu80-HKU/raw/mas
 
 * Python
 * Django
-* Django REST framework
 
 ### Machine Learning
 
