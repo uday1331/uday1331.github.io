@@ -1,5 +1,6 @@
 ---
 title: "CollabCoin"
+highlight: true
 date: '2017-12-03T12:00:00.000+08:00'
 excerpt: "A decentralized crowdsourced investment fund."
 header:

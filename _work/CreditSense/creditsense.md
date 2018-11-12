@@ -1,5 +1,6 @@
 ---
 title: "CreditSense"
+highlight: true
 date: '2018-05-12T12:00:00.000+08:00'
 excerpt: "A decentralized platform for automated credit scoring."
 header:

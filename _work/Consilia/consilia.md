@@ -1,5 +1,6 @@
 ---
 title: "Consilia"
+highlight: true
 date: '2018-01-28T12:00:00.000+08:00'
 excerpt: "A smart academic planner for HKU."
 header:

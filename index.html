@@ -1,11 +1,19 @@
 ---
-layout: collection
-collection: work
-entries_layout: grid
-classes: wide
+layout: archive
 author_profile: true
-sort_by: date
-sort_order: reverse
 ---
 
-<h3 class="archive__subtitle" style="border-bottom: 0px">{{ site.work | size }} Projects</h3>
+{% assign sorted = site.work | sort: 'date' | reverse %}
+{% assign highlight_projects = "" | split: "" %}
+{% for post in sorted %}
+  {% if post.highlight %}
+    {% assign highlight_projects = highlight_projects | push: post %}
+  {% endif %}
+{% endfor %}
+
+<h3 class="archive__subtitle" style="border-bottom: 0px">{{ highlight_projects | size }} Highlight Projects</h3>
+<div class="grid__wrapper" style="border-top:1px solid #f2f3f3; padding-top:0.5em">
+  {% for post in highlight_projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>

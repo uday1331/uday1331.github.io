@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Resume (Oct 2018)"
+  - title: "Resume (Nov 2018)"
     url: /assets/docs/resume.pdf
-  - title: 'Projects'
+  - title: 'All Projects'
     url: /work
   - title: "Achievements"
     url: /achievements/

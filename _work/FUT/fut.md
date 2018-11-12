@@ -1,5 +1,6 @@
 ---
 title: "FUT Grapher"
+highlight: true
 date: '2018-01-15T12:00:00.000+08:00'
 excerpt: "A python app which suggests the best squad for Fifa Ultimate Team using graph theory."
 header:
