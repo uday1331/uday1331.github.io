@@ -15,4 +15,4 @@ A Chinese character-level CNN with a 86% F-score for categorizing Weibo postings
 
 ## Links
 
-* [Github](https://github.com/ObsidianAdvisoryLLP/ChineseTextClassification)
+* [GitHub](https://github.com/ObsidianAdvisoryLLP/ChineseTextClassification)

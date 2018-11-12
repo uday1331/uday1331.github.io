@@ -27,7 +27,7 @@ A chatting web app made entirely in MEAN.
 
 ## Links
 
-* [Github](http://github.com/WaqasAliAbbasi/ChatterBox)
+* [GitHub](http://github.com/WaqasAliAbbasi/ChatterBox)
 
 This is a fully working chatting app with the following features:
 

@@ -37,7 +37,7 @@ A decentralized crowdsourced investment fund.
 
 ## Links
 
-* [Github](https://github.com/waqasaliabbasi/CollabCoin)
+* [GitHub](https://github.com/waqasaliabbasi/CollabCoin)
 
 ## Awards
 
@@ -53,7 +53,7 @@ The product aims at making a Market-beating portfolio by
 1.  Crowd-sourcing insights and capital
 2.  Mix of Product to Mix of Talent
 
-Our TWO Target Groups
+Our Two Target Groups
 
 People with investment insights= Player
 People looking for investment options= Putter

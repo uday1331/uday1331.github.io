@@ -16,18 +16,18 @@ gallery:
     alt: "Course planner"
 ---
 
-A smart academic planner developed to solve academic planning problems at HKU.
+A smart academic planner developed to solve academic planning problems at University of Hong Kong.
 
 {% include gallery caption="These are screenshots of the academic planner." %}
 
 ## Links
 
-* [Github](https://github.com/utkarsh867/Consilia)
+* [GitHub](https://github.com/utkarsh867/Consilia)
 * [Demo](http://dbil.southeastasia.cloudapp.azure.com:3000)
 
 ## Proposal
 
-We are working with HKU Common Core and Academic Advising department to get official support for this so we can use real-time and structured data instead of manual scraping.
+We are working with HKU Common Core and Academic Advising department to get official support so we can use real-time and structured data instead of manual scraping.
 
 You can read the proposal [here](https://docs.google.com/document/d/1wDlMYRghCE826MMMo283TukCORy_jY0d9yf6ey5SyX8/edit?usp=sharing).
 

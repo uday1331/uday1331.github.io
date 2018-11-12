@@ -27,7 +27,7 @@ Curo, a social bot, reminds you to take surveys. The amount generated goes to so
 
 ## Links
 
-* [Github](https://github.com/WaqasAliAbbasi/CuroBot)
+* [GitHub](https://github.com/WaqasAliAbbasi/CuroBot)
 
 ## Team
 

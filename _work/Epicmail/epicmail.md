@@ -24,7 +24,7 @@ An attempt to simplify email by employing a minimal approach to design.
 
 ## Links
 
-* [Github](https://github.com/waqasaliabbasi/epicmail)
+* [GitHub](https://github.com/waqasaliabbasi/epicmail)
 * [Demo](http://i.cs.hku.hk/%7Ewali/assignment1/webmail)
 
 ## Tech

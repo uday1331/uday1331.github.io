@@ -25,7 +25,7 @@ A full-featured multiplayer networked card game made in Java.
 
 ## Links
 
-* [Github](http://github.com/WaqasAliAbbasi/BigTwo)
+* [GitHub](http://github.com/WaqasAliAbbasi/BigTwo)
 
 ## Design
 

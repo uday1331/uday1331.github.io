@@ -21,7 +21,7 @@ A complete solution for SMEs to remain competitive against big labels and online
 
 ## Links
 
-* [Github](https://github.com/chrisckwong821/Metis)
+* [GitHub](https://github.com/chrisckwong821/Metis)
 
 ## Awards
 

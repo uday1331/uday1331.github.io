@@ -1,6 +1,5 @@
 ---
 title: "AzureCompare"
-highlight: true
 date: '2017-08-31T12:00:00.000+08:00'
 excerpt: "A web app to easily search, filter, compare and plan Azure offerings."
 header:
@@ -12,9 +11,9 @@ sidebar:
     text: A web app to easily search, filter, compare and plan Azure offerings.
 ---
 
-A web app to easily search, filter, compare and plan Azure offerings.
+A web app to easily search, filter, compare and plan Azure offerings. Moreover, it compares the offerings with similar offerings of competitor i.e. Amazon Web Services.
 
 ## Links
 
-* [Github](https://github.com/WaqasAliAbbasi/azurecompare)
+* [GitHub](https://github.com/WaqasAliAbbasi/azurecompare)
 * [vmcompare.azurewebsites.net](http://vmcompare.azurewebsites.net)

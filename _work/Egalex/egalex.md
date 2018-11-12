@@ -27,7 +27,7 @@ A decentralized pro-bono network for law firms.
 
 ## Links
 
-* [Github](https://github.com/piy0999/Egalex)
+* [GitHub](https://github.com/piy0999/Egalex)
 
 ## About
 

@@ -22,7 +22,7 @@ A decentralised credit scoring service based on blockchain which employs deep le
 
 ## Links
 
-* [Github](https://github.com/piy0999/CreditSense)
+* [GitHub](https://github.com/piy0999/CreditSense)
 * [creditsense.network](https://creditsense.network)
 
 ## Awards
@@ -36,8 +36,8 @@ A decentralised credit scoring service based on blockchain which employs deep le
   * Runner-up
   * Most Innovative Ward
   * Prize: 2000 HKD
-* CCMF _18 May_
-  * Seed Fund: 100,000 HKD
+* Cyberport Creative Micro Fund _18 May_
+  * Seed Fund: HK$100,000
 
 ## Summary
 

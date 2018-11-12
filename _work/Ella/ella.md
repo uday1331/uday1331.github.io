@@ -27,7 +27,7 @@ A Personal Financial Assistant.
 
 ## Links
 
-* [Github](https://github.com/WaqasAliAbbasi/Ella)
+* [GitHub](https://github.com/WaqasAliAbbasi/Ella)
 
 ## Update 2
 

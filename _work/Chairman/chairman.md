@@ -25,7 +25,7 @@ Chairman is the superhero that helps students find empty seats in learning space
 
 ## Links
 
-* [Github](https://github.com/piy0999/Chairman)
+* [GitHub](https://github.com/piy0999/Chairman)
 
 ## Summary
 

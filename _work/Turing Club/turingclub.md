@@ -15,7 +15,7 @@ A HKU group of technical and non-technical students working on smart campus solu
 
 ## Links
 
-* [Github](https://github.com/hkuturingclub)
+* [GitHub](https://github.com/hkuturingclub)
 
 ## Information
 

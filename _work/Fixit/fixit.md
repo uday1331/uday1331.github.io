@@ -48,7 +48,7 @@ Optimize home services through pooling. Fixit is a mobile platform which enables
 
 ## Links
 
-* [Github](https://github.com/Chhavisharma15/Fixit)
+* [GitHub](https://github.com/Chhavisharma15/Fixit)
 
 ## Team
 
@@ -64,10 +64,10 @@ Fixit was developed at **SmarTone Hackathon 2018** over a course of 24 hours fro
 
 ### Front-end
 
-It's a hyprid mobile app built using React Native.
+It's a hybrid mobile app built using React Native.
 
 ### Back-end
 
-Node.js backend and sklearn-powered Machine Learning.
+Node.js backend and sklearn-powered machine learning.
 
-{% include gallery caption="These are screenshots of the Fixit mobile app." %}
+{% include gallery caption="These are screenshots of the the mobile app." %}

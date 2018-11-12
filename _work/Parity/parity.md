@@ -15,7 +15,7 @@ A way to connect underprivileged with law firms looking to do pro-bono work.
 
 ## Links
 
-* [Github](https://github.com/WaqasAliAbbasi/Parity)
+* [GitHub](https://github.com/WaqasAliAbbasi/Parity)
 
 ## Summary
 

@@ -30,7 +30,7 @@ A 3D network visualization tool for new client identification with knowledge-bas
 
 ## Links
 
-* [Github](https://github.com/piy0999/NexusChain)
+* [GitHub](https://github.com/piy0999/NexusChain)
 
 ## Team
 

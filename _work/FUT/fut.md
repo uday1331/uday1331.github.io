@@ -25,7 +25,7 @@ A python app which suggests the best squad for Fifa Ultimate Team using graph th
 
 ## Links
 
-* [Github](https://github.com/WaqasAliAbbasi/FUT_Grapher)
+* [GitHub](https://github.com/WaqasAliAbbasi/FUT_Grapher)
 
 ## Background Info
 
@@ -35,7 +35,7 @@ The best squads in fifa ultimate team are the ones with the highest overall rati
 2.  Same League
 3.  Same Nationality
 
-If one attribute is similar there is a orange link, if there are two similar attributes then there is a green link. The more green and orange links are there, the higher chemistry the fifa ultimate team has.
+If one attribute is similar there is a orange link. If there are two similar attributes then there is a green link. The more green and orange links there are, the higher chemistry the team has.
 
 ## Problem
 
