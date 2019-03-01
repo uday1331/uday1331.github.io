@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://waqasaliabbasi.com" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/relatedpostfallback.jpg
 twitter_username: Waqas_AliAbbasi
-github_username:  WaqasAliAbbasi
+github_username: WaqasAliAbbasi
 repository: WaqasAliAbbasi/WaqasAliAbbasi.github.io
 
 comments:
@@ -37,13 +37,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Waqas Ali"
-  avatar           : "/assets/images/Waqas Ali.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a HKU '20 who loves all things tech and chikoo milkshake."
-  location         : "Hong Kong"
-  email            : "waqas.abbasi@outlook.com"
-  github           : "WaqasAliAbbasi"
-  linkedin         : "waqasaliabbasi"
+  name: "Waqas Ali"
+  avatar: "/assets/images/Waqas Ali.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "I am a HKU '20 who loves all things tech and chikoo milkshake."
+  location: "Hong Kong"
+  email: "waqas.abbasi@outlook.com"
+  github: "WaqasAliAbbasi"
+  linkedin: "waqasaliabbasi"
+  twitter: "Waqas_AliAbbasi"
 
 # Outputting
 permalink: /blog/:categories/:title/
