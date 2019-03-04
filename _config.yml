@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://waqasaliabbasi.com" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/relatedpostfallback.jpg
-twitter_username: Waqas_AliAbbasi
+twitter_username: totally_waqas
 github_username: WaqasAliAbbasi
 repository: WaqasAliAbbasi/WaqasAliAbbasi.github.io
 
@@ -44,7 +44,7 @@ author:
   email: "waqas.abbasi@outlook.com"
   github: "WaqasAliAbbasi"
   linkedin: "waqasaliabbasi"
-  twitter: "Waqas_AliAbbasi"
+  twitter: "totally_waqas"
 
 # Outputting
 permalink: /blog/:categories/:title/
