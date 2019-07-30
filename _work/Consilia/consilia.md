@@ -1,7 +1,6 @@
 ---
 title: "Consilia"
-highlight: true
-date: '2018-01-28T12:00:00.000+08:00'
+date: "2018-01-28T12:00:00.000+08:00"
 excerpt: "A smart academic planner for HKU."
 header:
   teaser: course_planner.png
@@ -22,8 +21,8 @@ A smart academic planner developed to solve academic planning problems at Univer
 
 ## Links
 
-* [GitHub](https://github.com/utkarsh867/Consilia)
-* [Demo](http://dbil.southeastasia.cloudapp.azure.com:3000)
+- [GitHub](https://github.com/utkarsh867/Consilia)
+- [Demo](http://dbil.southeastasia.cloudapp.azure.com:3000)
 
 ## Proposal
 

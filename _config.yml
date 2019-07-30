@@ -39,7 +39,7 @@ analytics:
 author:
   name: "Waqas Ali"
   avatar: "/assets/images/Waqas Ali.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am a HKU '20 who loves all things tech and chikoo milkshake."
+  bio: "I am a HKU '20 who loves all things tech."
   location: "Hong Kong"
   email: "waqas.abbasi@outlook.com"
   github: "WaqasAliAbbasi"
@@ -105,7 +105,7 @@ include:
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.13.0"
-#theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache

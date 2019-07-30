@@ -1,7 +1,6 @@
 ---
 title: "Personal IPO"
-highlight: true
-date: '2018-11-04T12:00:00.000+08:00'
+date: "2018-11-04T12:00:00.000+08:00"
 excerpt: "Intelligent Personal Valuation Platform. PIPO takes the company capital-raising concept and applies it to individuals."
 header:
   teaser: "PIPO 4.2 Risk Analysis.png"
@@ -50,7 +49,7 @@ PIPO is a functional primary market exchange platform prototype that offers valu
 
 ## Links
 
-* [GitHub](https://github.com/WaqasAliAbbasi/Chengdu80-HKU)
+- [GitHub](https://github.com/WaqasAliAbbasi/Chengdu80-HKU)
 
 ## Competition
 
@@ -80,17 +79,17 @@ viewer?embedded=true&url=https://github.com/WaqasAliAbbasi/Chengdu80-HKU/raw/mas
 
 ### Front-end
 
-* React
-* Redux
-* Material-UI
-* Redux Thunk
-* Victory (Data Visualization)
+- React
+- Redux
+- Material-UI
+- Redux Thunk
+- Victory (Data Visualization)
 
 ### Back-end
 
-* Python
-* Django
+- Python
+- Django
 
 ### Machine Learning
 
-* Random Forest Classifier
+- Random Forest Classifier

@@ -1,7 +1,6 @@
 ---
 title: "CreditSense"
-highlight: true
-date: '2018-05-12T12:00:00.000+08:00'
+date: "2018-05-12T12:00:00.000+08:00"
 excerpt: "A decentralized platform for automated credit scoring."
 header:
   teaser: model.png
@@ -22,22 +21,22 @@ A decentralised credit scoring service based on blockchain which employs deep le
 
 ## Links
 
-* [GitHub](https://github.com/piy0999/CreditSense)
-* [creditsense.network](https://creditsense.network)
+- [GitHub](https://github.com/piy0999/CreditSense)
+- [creditsense.network](https://creditsense.network)
 
 ## Awards
 
-* Imagine Hack 2018 _21-22 Jan_
-  * Winner
-  * Prize: Surface Pro (6999 HKD)
-* Bank of China Hackathon _9-10 Mar_
-* Imagine Cup Round 2 _26 Mar_
-* Imagine Cup Elite 10 (Finals) _11 May_
-  * Runner-up
-  * Most Innovative Ward
-  * Prize: 2000 HKD
-* Cyberport Creative Micro Fund _18 May_
-  * Seed Fund: HK$100,000
+- Imagine Hack 2018 _21-22 Jan_
+  - Winner
+  - Prize: Surface Pro (6999 HKD)
+- Bank of China Hackathon _9-10 Mar_
+- Imagine Cup Round 2 _26 Mar_
+- Imagine Cup Elite 10 (Finals) _11 May_
+  - Runner-up
+  - Most Innovative Ward
+  - Prize: 2000 HKD
+- Cyberport Creative Micro Fund _18 May_
+  - Seed Fund: HK\$100,000
 
 ## Summary
 

@@ -1,7 +1,6 @@
 ---
 title: "Big Two"
-highlight: true
-date: '2017-12-04T12:00:00.000+08:00'
+date: "2017-12-04T12:00:00.000+08:00"
 excerpt: "A full-featured multiplayer networked card game made in Java."
 header:
   teaser: client.png
@@ -25,7 +24,7 @@ A full-featured multiplayer networked card game made in Java.
 
 ## Links
 
-* [GitHub](http://github.com/WaqasAliAbbasi/BigTwo)
+- [GitHub](http://github.com/WaqasAliAbbasi/BigTwo)
 
 ## Design
 
