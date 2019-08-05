@@ -2,105 +2,26 @@
 permalink: /achievements/
 title: "Achievements"
 excerpt: "My achievements across years."
-modified: 2019-06-07T02:04:00+08:00
+modified: 2019-08-06T12:47:00+08:00
 ---
 
-Below are all the events I have participated in. Achievements are in bold.
+## Winner
 
-## 2019
+- _May 2018_ - **Champion** - [PolyU x Radica BigDatathon 2018](https://www.datavalleyhk.com/bigdatathon)
+- _November 2017_ - **Winner** - SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong
 
-#### April
+## Runner-up and other
 
-- Hackust 2019 - [Project](https://github.com/WaqasAliAbbasi/thefoodapp)
-- The Innovator Tribank Fintech Challenge 2019 - [Project](https://github.com/piy0999/Unicorns-First) - **Runner-up**
+- _June 2019_ - **Runner-up Outstanding Team** - **Best Presentation Team** - [BEA 100 Fintech Challenge](https://www.hkbea.com/bea100fc/) - [Project](https://github.com/piy0999/Unicorns-First)
+- _April 2019_ - **Runner-up** - [The Innovator Tribank Fintech Challenge 2019](https://www.shacombank.com.hk/eng/main/fintech/2019/index.jsp) - [Project](https://github.com/piy0999/Unicorns-First)
+- _November 2018_ - **Runner-up** - [Chengdu80 2018](https://www.cs.hku.hk/news/display.jsp?file=2018/1109_Chengdu80.htm) Inter-University Greater China Region Fintech Competition - [Project](/work/pipo)
+- _May 2018_ - **Runner-up** - **Most Innovative Award** - [Imagine Cup Hong Kong Finals](https://www.facebook.com/msphongkong/posts/1028750247300048) - [Project](/work/creditsense)
+- _March 2018_ - **Runner-up** - [HKU Global Challenges, Local Solutions 2018](https://www.sustainability.hku.hk/event/global-challenges-local-solutions-changing-lives-for-good) - [Project](/work/chain)
+- _December 2017_ - **Runner-up** - SCB (Shanghai Commercial Bank) Greater China Fintech Competition
+- _December 2017_ - **Runner-up** - HSBC Safeguard App Competition
+- _August 2017_ - **3rd Place** - //oneweek (Microsoft Internal Hackathon) - [Project](/work/metis)
 
-#### March
+## Misc
 
-- iDendron, HKU Innovation & Entrepreneurship Hub - [Project](http://takedailydose.com/) - **Incubated**
-
-- JCSVIII Football Tournament - **Runner-up**
-
-#### February
-
-- Chi Sun Hack 2019 - _Organized_ - [Website](https://chi-sun-hack-2019.devpost.com)
-
-#### January
-
-- JUMPSTARTER IdeaPOP! - [Project](http://takedailydose.com/) - **Top 20**
-
-## 2018
-
-#### November
-
-- Chengdu80 2018 - [Project](/work/pipo) - **Runner-up**
-
-#### October
-
-- SmarTone Hackathon 2018 - [Project](/work/fixit) - **Advanced to Round 2**
-
-#### September
-
-- CodeIT Credit Suisse Coding Challenge 2018
-
-#### June
-
-- Societe Generale FinHACK 2018 - [Project](/work/nexusgraph)
-- HKU STEM Symposium 2018 - _Mentor_ - [Project](/work/spacecraft)
-
-#### May
-
-- PolyU x Radica BigDatathon 2018 - **UBS Champion** - [Project](/work/obsidiansearch)
-- HKU STEM Symposium 2018 Mentor Training - Virtual Reality/Unity/Sketchup
-- CCMF (Cyberbort Creative Micro Fund) - **HKD\$ 100,000 Seed Fund**
-- Imagine Cup Hong Kong Finals - **Runner-up** - [Project](/work/creditsense)
-- Imagine Cup Hong Kong Finals - **Most Innovative Award**
-
-#### April
-
-- Hackust 2018 - [Project](/work/chairman)
-- Innotech Law 2018 - [Project](/work/parity)
-
-#### March
-
-- HKU Global Challenges, Local Solutions 2018 - **Runner-up** - [Project](/work/chain)
-- Chi Sun Turing Club - **Founded** - [Project](/work/turingclub)
-- Consilia HKU - [Project](/work/consilia)
-
-#### February
-
-- Global Legal Hackathon 2018 - [Project](/work/egalex)
-- JCSVIII Speech Festival
-
-#### January
-
-- CityU Hackathon 2018 - [Project](/work/consilia)
-- Bank of China Hackathon 2018 - Round 1
-
-## 2017
-
-#### December
-
-- SCB (Shanghai Commercial Bank) Grand Finals in Shanghai - **Runner-up** - [Project](/work/collabcoin)
-- HSBC Safeguard App Competition - **Runner-up**
-- Fifa 18 Ultimate Team Squad Grapher - [Project](/work/fut)
-
-#### November
-
-- SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong - **Winner**
-- Unhackathon - Data Science Society Hong Kong
-- Trailwalker 2017 - **Finished 50km Hong Kong Trail**
-
-#### October
-
-- CodeConf 2017
-
-#### September
-
-- CodeIT Credit Suisse Coding Challenge 2017 - 5th out of 40 Teams
-- HKU ENG1111 (Intro to Programming in C++) - **Teaching Assistant**
-- WorldMUN 2019 Bid Team - **Director Creative Services**
-- Toastmasters HKU
-
-#### August
-
-- //oneweek (Microsoft Internal Hackathon) - **3rd Place** - [Project](/work/metis)
+- _March 2019_ - **Incubated** - [iDendron](https://idendron.hku.hk/), HKU Innovation & Entrepreneurship Hub - [Project](http://takedailydose.com/)
+- _May 2018_ - **HKD\$ 100,000 Seed Fund** - [CCMF (Cyberbort Creative Micro Fund)](https://www.cyberport.hk/en/about_cyberport/cyberport_youth/cyberport_creative_micro_fund) - [Project](/work/creditsense)

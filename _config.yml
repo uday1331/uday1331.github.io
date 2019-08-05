@@ -19,7 +19,7 @@ email: waqas.abbasi@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a HKU '20 who loves all things tech and chikoo milkshake.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://waqasaliabbasi.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://waqasali.dev" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/relatedpostfallback.jpg
 twitter_username: totally_waqas
 github_username: WaqasAliAbbasi
