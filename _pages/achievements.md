@@ -10,7 +10,7 @@ modified: 2019-08-06T12:47:00+08:00
 - _May 2018_ - **Champion** - [PolyU x Radica BigDatathon 2018](https://www.datavalleyhk.com/bigdatathon)
 - _November 2017_ - **Winner** - SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong
 
-## Runner-up and other
+## Runner-up and other awards
 
 - _June 2019_ - **Runner-up Outstanding Team** - **Best Presentation Team** - [BEA 100 Fintech Challenge](https://www.hkbea.com/bea100fc/) - [Project](https://github.com/piy0999/Unicorns-First)
 - _April 2019_ - **Runner-up** - [The Innovator Tribank Fintech Challenge 2019](https://www.shacombank.com.hk/eng/main/fintech/2019/index.jsp) - [Project](https://github.com/piy0999/Unicorns-First)
