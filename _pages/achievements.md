@@ -7,6 +7,7 @@ modified: 2019-08-06T12:47:00+08:00
 
 ## Winner
 
+- November 2019 - **Champion** - Chengdu80 2019 - Inter-university fintech competition in Chengdu, China
 - _May 2018_ - **Champion** - [PolyU x Radica BigDatathon 2018](https://www.datavalleyhk.com/bigdatathon)
 - _November 2017_ - **Winner** - SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong
 
