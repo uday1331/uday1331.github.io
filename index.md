@@ -11,7 +11,7 @@ post.highlight %} {% assign highlight_projects = highlight_projects | push: post
 <h3 class="archive__subtitle">
   What am I up to right now?
 </h3>
-- StudentBase (A revamp of [oalevelnotes.com](/work/oalevelnotes) into a platform for high school students to share useful resources with each other)
+- [StudentBase](https://studentbase.app) (A revamp of [oalevelnotes.com](/work/oalevelnotes) into a platform for high school students to share useful resources with each other)
 
 <h3 class="archive__subtitle" style="border-bottom: 0px">
   {{ highlight_projects | size }} Highlight Past Projects
