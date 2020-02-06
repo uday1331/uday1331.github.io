@@ -12,7 +12,7 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 # changed theme
-gem "minimal-mistakes-jekyll", "4.16.5"
+gem "minimal-mistakes-jekyll", "4.18.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

@@ -103,7 +103,7 @@ include:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 # theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
