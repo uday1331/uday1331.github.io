@@ -1,6 +1,5 @@
 ---
 title: "Chairman"
-highlight: true
 date: "2018-04-22T12:00:00.000+08:00"
 excerpt: "A R-CNN powered person detection model to inexpensively detect free learning spaces around university campus."
 header:
@@ -29,6 +28,6 @@ Chairman is the superhero that helps students find empty seats in learning space
 
 ## Summary
 
-Chairman is a very cheap solution to a big problem university students face. By analysing camera feeds in learning spaces, chairman can help find empty seats closest to a student on a university campus.
+Chairman is a very cheap solution to a big problem university students face. By analyzing camera feeds in learning spaces, chairman can help find empty seats closest to a student on a university campus.
 
 The AI model is a Keras implementation of RetinaNet object detection. It's a very accurate R-CNN (Region-based Convolutional Neural Networks) approach.

@@ -1,6 +1,5 @@
 ---
 title: "oalevelnotes.com"
-highlight: true
 date: "2015-02-25T12:00:00.000+08:00"
 excerpt: "A 30,000 MAU (monthly active users) community for GCE O Level and A Level High School students"
 header:

@@ -53,7 +53,7 @@ PIPO is a functional primary market exchange platform prototype that offers valu
 
 ## Competition
 
-Hosted by [Southwestern University of Finance and Economics](https://e.swufe.edu.cn/) in Chengdu (Sichuan, China) over a span of 6 days, **Chegdu80 2018** was an international inter-university fintech design and development competition. 8 universities including UC Berkley, National University of Singapore and University of Hong Kong participated in it.
+Hosted by [Southwestern University of Finance and Economics](https://e.swufe.edu.cn/) in Chengdu (Sichuan, China) over a span of 6 days, **Chengdu80 2018** was an international inter-university fintech design and development competition. 8 universities including UC Berkley, National University of Singapore and University of Hong Kong participated in it.
 
 ## Awards
 

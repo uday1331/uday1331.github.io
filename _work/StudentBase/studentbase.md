@@ -2,28 +2,28 @@
 title: "StudentBase"
 date: "2020-01-11T12:00:00.000+08:00"
 highlight: true
-excerpt: "A community of students and teachers helping each other out with O and A Levels."
+excerpt: "A community of O and A Level students, tutors and teachers."
 header:
   teaser: studentbase_1.png
 sidebar:
   - title: "StudentBase"
     image: SB.png
     image_alt: "StudentBase"
-    text: A community of students and teachers helping each other out with O and A Levels.
+    text: A community of O and A Level students, tutors and teachers.
 gallery:
   - url: studentbase_1.png
     image_path: studentbase_1.png
     alt: "A subject page showing most viewed items."
 ---
 
-A revamp of [oalevelnotes.com](/work/oalevelnotes) into a platform for high school students to share useful resources with each other. Released on January 11, 2020 with 10k monthly users and 100k monthly page views.
+A platform for high school students to share useful resources with each other. Released on January 11, 2020, it has 10k monthly users and 100k monthly page views (as of February 16, 2020).
 
-{% include gallery caption="These is a screenshot of the subject page." %}
+{% include gallery caption="This is a screenshot of the subject page." %}
 
 ## Links
 
 - [StudentBase.app](https://studentbase.app)
-- [Facebook Page](https://fb.me/StudentBaseApp)
+- [On Facebook](https://fb.me/StudentBaseApp)
 
 ## Technical Details
 

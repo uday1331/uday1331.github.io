@@ -15,7 +15,7 @@ gallery:
     alt: "Business model"
 ---
 
-A decentralised credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, delinquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
+A decentralized credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, delinquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
 
 {% include gallery caption="CreditSense" %}
 
@@ -40,7 +40,7 @@ A decentralised credit scoring service based on blockchain which employs deep le
 
 ## Summary
 
-A decentralised credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, deliquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
+A decentralized credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, delinquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
 
 A flow chart describing the overall application is the gallery above.
 
@@ -70,9 +70,9 @@ The solution has 4 layers which includes:
 2.  Allow the port for incoming connections in network settings
 3.  To join existing network, get IP address and port of any node in existing network, run the following command and ask the network to approve connect request. `curl -s https://raw.githubusercontent.com/piy0999/CreditSense/master/bank_node/setup_node.sh | bash /dev/stdin IP:PORT`
 
-<b>The Machine Learning Node:</b> This node is the brain of the whole application as such. The process starts off with the deep learning model which consists of 2 layer neural network with 35 hidden neurons. The model removes the need to analyse each of the 73 factors and instead gives us the set of optimal features required to carry out the analysis with an improving accuracy of 92.71% (Currently migrating to RNN machine learning model with LSTM implementation). Upon finding the optimal features, the logistic regression model then accesses the data of those optimal features for the specific applicant on the ledger and then predicts the probability of the specific applicant to default on his loan. This analytics is further powered by Microsoft Azure Data Lake Analytics and Microsoft Power BI to create the necessary graphs and carry out the required analysis.
+<b>The Machine Learning Node:</b> This node is the brain of the whole application as such. The process starts off with the deep learning model which consists of 2 layer neural network with 35 hidden neurons. The model removes the need to analyze each of the 73 factors and instead gives us the set of optimal features required to carry out the analysis with an improving accuracy of 92.71% (Currently migrating to RNN machine learning model with LSTM implementation). Upon finding the optimal features, the logistic regression model then accesses the data of those optimal features for the specific applicant on the ledger and then predicts the probability of the specific applicant to default on his loan. This analytics is further powered by Microsoft Azure Data Lake Analytics and Microsoft Power BI to create the necessary graphs and carry out the required analysis.
 
-<b>Reinforced Learning:</b> This serves as an extension to the model that already resides on the machine learning node and exists to learn from the implications the real world had from the analysis it did. The deep reinforced learning allows the model to learn from the predictions it made and further analyse the features that caused the specific loan applicant to default on his loan and would look for a trend in similar loan applications. This enables banks to find similar loan applicant profiles and take counter measures accordingly to make a much safer investment.
+<b>Reinforced Learning:</b> This serves as an extension to the model that already resides on the machine learning node and exists to learn from the implications the real world had from the analysis it did. The deep reinforced learning allows the model to learn from the predictions it made and further analyze the features that caused the specific loan applicant to default on his loan and would look for a trend in similar loan applications. This enables banks to find similar loan applicant profiles and take counter measures accordingly to make a much safer investment.
 
 ## Why are we Different?
 
