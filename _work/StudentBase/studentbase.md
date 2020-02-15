@@ -1,0 +1,52 @@
+---
+title: "StudentBase"
+date: "2020-01-11T12:00:00.000+08:00"
+highlight: true
+excerpt: "A community of students and teachers helping each other out with O and A Levels."
+header:
+  teaser: studentbase_1.png
+sidebar:
+  - title: "StudentBase"
+    image: SB.png
+    image_alt: "StudentBase"
+    text: A community of students and teachers helping each other out with O and A Levels.
+gallery:
+  - url: studentbase_1.png
+    image_path: studentbase_1.png
+    alt: "A subject page showing most viewed items."
+---
+
+A revamp of [oalevelnotes.com](/work/oalevelnotes) into a platform for high school students to share useful resources with each other. Released on January 11, 2020 with 10k monthly users and 100k monthly page views.
+
+{% include gallery caption="These is a screenshot of the subject page." %}
+
+## Links
+
+- [StudentBase.app](https://studentbase.app)
+- [Facebook Page](https://fb.me/StudentBaseApp)
+
+## Technical Details
+
+- React on Frontend, Express.js on Backend
+- GraphQL Server (Apollo Server)
+- GraphQL Client (Apollo Client)
+- Infrastructure as Code (Terraform)
+- Containerization (Docker)
+- Content Delivery Network (DigitalOcean)
+- S3 Content Storage (DigitalOcean Spaces)
+- HTTPS (Let's Encrypt)
+- 95% Testing Coverage
+- Caching to external services (node-cache)
+- Email and Facebook Authentication
+- Continuous Integration/Deployment (GitHub Actions)
+- Automated Backups
+- Multiple environments (Production, Staging)
+- A/B Testing
+- Dynamic Sitemap Generation
+- Google Analytics to track behavior
+- Integration with Google Analytics to show item views
+
+## Team
+
+- [Ahsan Syed](https://www.linkedin.com/in/ahsan-syed-930a2014a/)
+- [Uday Jain](https://www.linkedin.com/in/uday-jain-862a40174/)
