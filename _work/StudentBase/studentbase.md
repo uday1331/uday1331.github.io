@@ -27,10 +27,11 @@ A platform for high school students to share useful resources with each other. R
 
 ## Technical Details
 
+- Fully TypeScript
 - React on Frontend, Express.js on Backend
 - GraphQL Server (Apollo Server)
 - GraphQL Client (Apollo Client)
-- Infrastructure as Code (Terraform)
+- Infrastructure as Code (Terraform with DigitalOcean)
 - Containerization (Docker)
 - Content Delivery Network (DigitalOcean)
 - S3 Content Storage (DigitalOcean Spaces)
