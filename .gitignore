@@ -2,3 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
+
+# Gatsby stuff
+
+# Logs
+waqasali/.cache
+waqasali/node_modules
+waqasali/public
