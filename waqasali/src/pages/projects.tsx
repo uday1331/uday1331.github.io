@@ -1,12 +1,12 @@
 import React from "react";
 
 import { SEO, Layout } from "../components";
+import { Text } from "@chakra-ui/core";
 
 const Projects = () => (
   <Layout>
     <SEO title="Projects" />
-    <h1>Projects</h1>
-    <p>This is what I have made</p>
+    <Text>This is what I have made</Text>
   </Layout>
 );
 

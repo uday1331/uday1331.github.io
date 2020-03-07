@@ -1,30 +1,55 @@
-import { Link } from "gatsby";
 import React from "react";
 
 import { Portrait } from "./";
+import { Flex, Heading, IconButton, useColorMode } from "@chakra-ui/core";
+import { InternalLink } from "./InternalLink";
+import { customTheme } from "../gatsby-plugin-chakra-ui/theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle
 }) => {
-  const navigationBar = [
+  const { colorMode, toggleColorMode } = useColorMode();
+  const navigationBar: { title: string; path: string }[] = [
+    { title: "Home", path: "/" },
     { title: "Resume", path: "/resume" },
     { title: "Achievements", path: "/achievements" },
     { title: "Projects", path: "/projects" }
   ];
 
   return (
-    <nav>
-      <Link to="/">
-        <Portrait />
-        <span>{siteTitle}</span>
-      </Link>
-      <div>
-        {navigationBar.map(({ title, path }) => (
-          <Link key={path} to={path}>
-            {title}
-          </Link>
+    <Flex as="nav" align="center" direction="column">
+      <InternalLink to="/">
+        <Flex alignItems="center" direction="column">
+          <Flex as={Portrait} />
+          <Flex as={Heading} justifyContent="center">
+            {siteTitle}
+          </Flex>
+        </Flex>
+      </InternalLink>
+      <Flex align="center" justify="center" wrap="wrap">
+        {navigationBar.map(({ title, path }, key) => (
+          <Flex marginRight={2} key={path}>
+            <InternalLink
+              to={path}
+              color={
+                window.location.pathname === path
+                  ? colorMode === "dark"
+                    ? customTheme.colors.primary[300]
+                    : customTheme.colors.primary[500]
+                  : undefined
+              }
+            >
+              {title}
+            </InternalLink>
+          </Flex>
         ))}
-      </div>
-    </nav>
+        <IconButton
+          aria-label="Dark Mode"
+          size="xs"
+          icon={colorMode === "dark" ? "sun" : "moon"}
+          onClick={toggleColorMode}
+        />
+      </Flex>
+    </Flex>
   );
 };

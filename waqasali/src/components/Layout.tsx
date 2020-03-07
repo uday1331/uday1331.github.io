@@ -1,7 +1,15 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import {
+  ThemeProvider,
+  CSSReset,
+  Flex,
+  ColorModeProvider
+} from "@chakra-ui/core";
 
 import { Header } from "./";
+import { Footer } from "./Footer";
+import { customTheme } from "../gatsby-plugin-chakra-ui/theme";
 
 export const Layout: React.FunctionComponent<{
   children: React.ReactNode;
@@ -19,12 +27,24 @@ export const Layout: React.FunctionComponent<{
   const { title, lastUpdated } = data.site.siteMetadata;
 
   return (
-    <div>
-      <Header siteTitle={title} />
-      <main>{children}</main>
-      <footer>
-        Last Updated: {lastUpdated} | © {new Date().getFullYear()}
-      </footer>
-    </div>
+    <ThemeProvider theme={customTheme}>
+      <CSSReset />
+      <ColorModeProvider>
+        <Flex padding={2} direction="column" minHeight="100vh">
+          <Header siteTitle={title} />
+          <Flex
+            as="main"
+            align="center"
+            direction="column"
+            flex={1}
+            paddingY={2}
+            wrap="wrap"
+          >
+            {children}
+          </Flex>
+          <Footer lastUpdated={lastUpdated} />
+        </Flex>
+      </ColorModeProvider>
+    </ThemeProvider>
   );
 };

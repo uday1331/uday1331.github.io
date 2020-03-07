@@ -29,7 +29,8 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/waqas-ali.jpg` // This path is relative to the root of the site.
       }
-    }
+    },
+    "gatsby-plugin-chakra-ui"
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
