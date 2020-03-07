@@ -12,13 +12,25 @@ const IndexPage = () => (
     <p>Lives In: Hong Kong</p>
     <p>From: Pakistan</p>
     <p>
-      <a href="https://linkedin.com">LinkedIn</a>
+      <a href="https://linkedin.com" className="hover:text-purple-600">
+        LinkedIn
+      </a>
     </p>
     <p>
-      <a href="https://github.com/WaqasAliAbbasi">GitHub</a>
+      <a
+        href="https://github.com/WaqasAliAbbasi"
+        className="hover:text-purple-600"
+      >
+        GitHub
+      </a>
     </p>
     <p>
-      <a href="mailto:waqas.abbasi@outlook.com">Email</a>
+      <a
+        href="mailto:waqas.abbasi@outlook.com"
+        className="hover:text-purple-600"
+      >
+        Email
+      </a>
     </p>
   </Layout>
 )

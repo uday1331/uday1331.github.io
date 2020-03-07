@@ -26,21 +26,13 @@ const Layout = ({ children }) => {
   const { title, lastUpdated } = data.site.siteMetadata
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Header siteTitle={title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          Last Updated: {lastUpdated} | © {new Date().getFullYear()}
-        </footer>
-      </div>
-    </>
+      <main class="container mx-auto px-2 flex-grow">{children}</main>
+      <footer class="text-center mb-px-2 text-xs text-gray-600">
+        Last Updated: {lastUpdated} | © {new Date().getFullYear()}
+      </footer>
+    </div>
   )
 }
 
