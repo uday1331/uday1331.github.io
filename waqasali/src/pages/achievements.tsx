@@ -1,7 +1,6 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Layout, SEO } from "../components";
 
 const Achievements = () => (
   <Layout>
@@ -9,6 +8,6 @@ const Achievements = () => (
     <h1>Achievements</h1>
     <p>This is what I have accomplished</p>
   </Layout>
-)
+);
 
-export default Achievements
+export default Achievements;

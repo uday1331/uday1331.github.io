@@ -1,7 +1,6 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { SEO, Layout } from "../components";
 
 const Projects = () => (
   <Layout>
@@ -9,6 +8,6 @@ const Projects = () => (
     <h1>Projects</h1>
     <p>This is what I have made</p>
   </Layout>
-)
+);
 
-export default Projects
+export default Projects;
