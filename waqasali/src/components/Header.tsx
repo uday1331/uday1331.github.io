@@ -12,7 +12,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   const navigationBar: { title: string; path: string }[] = [
     { title: "Home", path: "/" },
     { title: "Resume", path: "/resume" },
-    { title: "Achievements", path: "/achievements" },
+    { title: "Awards", path: "/awards" },
     { title: "Projects", path: "/projects" }
   ];
 
@@ -27,12 +27,12 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
         </Flex>
       </InternalLink>
       <Flex align="center" justify="center" wrap="wrap">
-        {navigationBar.map(({ title, path }, key) => (
+        {navigationBar.map(({ title, path }) => (
           <Flex marginRight={2} key={path}>
             <InternalLink
               to={path}
               color={
-                window.location.pathname === path
+                `/${window.location.pathname.split("/")?.[1]}` === path
                   ? colorMode === "dark"
                     ? customTheme.colors.primary[300]
                     : customTheme.colors.primary[500]

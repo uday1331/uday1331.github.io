@@ -30,7 +30,15 @@ module.exports = {
         icon: `src/images/waqas-ali.jpg` // This path is relative to the root of the site.
       }
     },
-    "gatsby-plugin-chakra-ui"
+    "gatsby-plugin-chakra-ui",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`
+      }
+    },
+    `gatsby-transformer-remark`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
