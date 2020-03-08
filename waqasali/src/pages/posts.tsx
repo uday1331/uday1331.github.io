@@ -7,18 +7,18 @@ import { graphql } from "gatsby";
 interface ProjectData {
   title: string;
   path: string;
-  description: string;
+  excerpt: string;
 }
-const Project: React.FC<ProjectData> = ({ title, path, description }) => (
+const Post: React.FC<ProjectData> = ({ title, path, excerpt }) => (
   <Box>
     <InternalLink to={path}>
       <Text>{title}</Text>
-      <Text>{description}</Text>
+      <Text>{excerpt}</Text>
     </InternalLink>
   </Box>
 );
 
-const Projects: React.FC<any> = ({
+const Posts: React.FC<any> = ({
   data: {
     allMarkdownRemark: { edges }
   }
@@ -29,22 +29,17 @@ const Projects: React.FC<any> = ({
   return (
     <Layout>
       <SEO title="Projects" />
-      {projects.map(({ path, title, description }, key) => (
-        <Project
-          key={key}
-          title={title}
-          path={path}
-          description={description}
-        />
+      {projects.map(({ path, title, excerpt }, key) => (
+        <Post key={key} title={title} path={path} excerpt={excerpt} />
       ))}
     </Layout>
   );
 };
 
-export const projectsQuery = graphql`
+export const postsQuery = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/src/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
     ) {
@@ -53,7 +48,7 @@ export const projectsQuery = graphql`
           frontmatter {
             path
             title
-            description
+            excerpt
           }
         }
       }
@@ -61,4 +56,4 @@ export const projectsQuery = graphql`
   }
 `;
 
-export default Projects;
+export default Posts;

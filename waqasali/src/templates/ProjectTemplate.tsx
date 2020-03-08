@@ -3,15 +3,15 @@ import { graphql } from "gatsby";
 import { Layout, SEO } from "../components";
 import { Heading, Text } from "@chakra-ui/core";
 
-const BlogTemplate: React.FunctionComponent<any> = ({ data }) => {
+const ProjectTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { markdownRemark } = data;
   const {
-    frontmatter: { title, date },
+    frontmatter: { title, date, description },
     html
   } = markdownRemark;
   return (
     <Layout>
-      <SEO title={title} />
+      <SEO title={title} description={description} />
       <Heading size="md">{title}</Heading>
       <Text>{date}</Text>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
@@ -27,9 +27,10 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        description
       }
     }
   }
 `;
 
-export default BlogTemplate;
+export default ProjectTemplate;

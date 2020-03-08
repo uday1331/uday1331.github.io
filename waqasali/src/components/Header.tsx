@@ -13,7 +13,8 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
     { title: "Home", path: "/" },
     { title: "Resume", path: "/resume" },
     { title: "Awards", path: "/awards" },
-    { title: "Projects", path: "/projects" }
+    { title: "Projects", path: "/projects" },
+    { title: "Posts", path: "/posts" }
   ];
 
   return (
