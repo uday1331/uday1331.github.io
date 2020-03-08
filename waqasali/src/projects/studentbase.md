@@ -7,12 +7,12 @@ description: "A community of O and A Level students, tutors and teachers."
 
 A platform for high school students to share useful resources with each other. Released on January 11, 2020, it has 10k monthly users and 100k monthly page views (as of February 16, 2020).
 
-## Links
+### Links
 
 - [StudentBase.app](https://studentbase.app)
 - [On Facebook](https://fb.me/StudentBaseApp)
 
-## Technical Details
+### Technical Details
 
 - Fully TypeScript
 - React on Frontend, Express.js on Backend

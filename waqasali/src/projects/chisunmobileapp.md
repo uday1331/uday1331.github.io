@@ -12,20 +12,20 @@ Developed by the college's Turing Club, the mobile app is the one-stop shop for 
 - Contact information for management/tutorial team
 - Links for room booking, college website and social media
 
-## Links
+### Links
 
 - [GitHub](https://github.com/hkuturingclub/ChiSunApp)
 - [Chi Sun College](http://www.chisuncollege.hku.hk/)
 - [Chi Sun Turing Club](https://github.com/hkuturingclub)
 
-## Tech
+### Tech
 
-### Front-end
+#### Front-end
 
 - React Native
 - NativeBase
 
-### Back-end
+#### Back-end
 
 - GraphQL
 - Firebase

@@ -1,20 +1,28 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { Heading, Text, Divider } from "@chakra-ui/core";
+import ReactMarkdown from "react-markdown";
+
 import { Layout, SEO } from "../components";
-import { Heading, Text } from "@chakra-ui/core";
+import ChakraUIRenderer from "../components/ChakraUIRenderer";
 
 const ProjectTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { markdownRemark } = data;
   const {
     frontmatter: { title, date, description },
-    html
+    rawMarkdownBody
   } = markdownRemark;
   return (
     <Layout>
       <SEO title={title} description={description} />
-      <Heading size="md">{title}</Heading>
+      <Heading size="xl">{title}</Heading>
       <Text>{date}</Text>
-      <div dangerouslySetInnerHTML={{ __html: html }}></div>
+      <Divider />
+      <ReactMarkdown
+        renderers={ChakraUIRenderer()}
+        source={rawMarkdownBody}
+        escapeHtml={false}
+      />
     </Layout>
   );
 };
@@ -22,7 +30,7 @@ const ProjectTemplate: React.FunctionComponent<any> = ({ data }) => {
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+      rawMarkdownBody
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

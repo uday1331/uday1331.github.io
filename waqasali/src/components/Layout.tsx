@@ -32,14 +32,7 @@ export const Layout: React.FunctionComponent<{
       <ColorModeProvider>
         <Flex padding={2} direction="column" minHeight="100vh">
           <Header siteTitle={title} />
-          <Flex
-            as="main"
-            align="center"
-            direction="column"
-            flex={1}
-            paddingY={2}
-            wrap="wrap"
-          >
+          <Flex as="main" direction="column" flex={1} paddingY={2} wrap="wrap">
             {children}
           </Flex>
           <Footer lastUpdated={lastUpdated} />
