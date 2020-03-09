@@ -2,9 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Waqas Ali`,
     description: `Hi, I am Waqas and this is my personal website describing my projects, experience and achievements so far.`,
-    author: `@waqasaliabbasi`,
     lastUpdated: `4 March 2020`,
-    twitter: "totally_waqas",
+    twitter: "@totally_waqas",
     github: "WaqasAliAbbasi",
     linkedin: "waqasaliabbasi",
     email: "waqas.abbasi@outlook.com"

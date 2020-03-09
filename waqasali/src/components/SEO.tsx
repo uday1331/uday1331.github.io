@@ -15,7 +15,7 @@ export const SEO: React.FunctionComponent<{
           siteMetadata {
             title
             description
-            author
+            twitter
           }
         }
       }
@@ -54,7 +54,7 @@ export const SEO: React.FunctionComponent<{
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author
+          content: site.siteMetadata.twitter
         },
         {
           name: `twitter:title`,

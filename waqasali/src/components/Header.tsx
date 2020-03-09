@@ -1,7 +1,15 @@
 import React from "react";
+import { TiHomeOutline } from "react-icons/ti";
 
 import { Portrait } from "./";
-import { Flex, Heading, IconButton, useColorMode } from "@chakra-ui/core";
+import {
+  Flex,
+  Heading,
+  IconButton,
+  useColorMode,
+  Box,
+  Text
+} from "@chakra-ui/core";
 import { InternalLink } from "./InternalLink";
 import { customTheme } from "../theme";
 
@@ -10,7 +18,6 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
 }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
-    { title: "Home", path: "/" },
     { title: "Resume", path: "/resume" },
     { title: "Awards", path: "/awards" },
     { title: "Projects", path: "/projects" },
@@ -18,16 +25,38 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   ];
 
   return (
-    <Flex as="nav" align="center" direction="column">
-      <InternalLink to="/">
-        <Flex alignItems="center" direction="column">
-          <Flex as={Portrait} />
-          <Flex as={Heading} justifyContent="center">
-            {siteTitle}
+    <Flex as="nav" direction="column">
+      <Flex justify="space-between" align="center">
+        <InternalLink to="/">
+          <Flex align="center">
+            <Portrait />
+            <Heading marginLeft={3} textAlign="center">
+              {siteTitle}
+            </Heading>
           </Flex>
-        </Flex>
-      </InternalLink>
-      <Flex align="center" justify="center" wrap="wrap">
+        </InternalLink>
+        <IconButton
+          aria-label="Dark Mode"
+          size="xs"
+          icon={colorMode === "dark" ? "sun" : "moon"}
+          onClick={toggleColorMode}
+        />
+      </Flex>
+      <Flex align="center" marginTop={3} marginLeft={2} wrap="wrap">
+        <InternalLink to={"/"}>
+          <Box
+            as={TiHomeOutline}
+            size="15px"
+            color={
+              `/${window.location.pathname.split("/")?.[1]}` === "/"
+                ? colorMode === "dark"
+                  ? customTheme.colors.primary[300]
+                  : customTheme.colors.primary[500]
+                : undefined
+            }
+          />
+        </InternalLink>
+        <Text marginX={2}>|</Text>
         {navigationBar.map(({ title, path }) => (
           <Flex marginRight={2} key={path}>
             <InternalLink
@@ -44,12 +73,6 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
             </InternalLink>
           </Flex>
         ))}
-        <IconButton
-          aria-label="Dark Mode"
-          size="xs"
-          icon={colorMode === "dark" ? "sun" : "moon"}
-          onClick={toggleColorMode}
-        />
       </Flex>
     </Flex>
   );

@@ -22,7 +22,7 @@ export const Portrait = () => {
 
   return (
     <Avatar
-      size="xl"
+      size="lg"
       src={data.portraitImage.childImageSharp.fixed.src}
       name={data.siteTitleQuery.siteMetadata.title}
     />

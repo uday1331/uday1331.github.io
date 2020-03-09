@@ -21,9 +21,15 @@ export const Layout: React.FunctionComponent<{
   const { title, lastUpdated } = data.site.siteMetadata;
 
   return (
-    <Flex padding={2} direction="column" minHeight="100vh">
+    <Flex
+      direction="column"
+      minHeight="100vh"
+      maxWidth="29rem"
+      marginX="auto"
+      padding="2.625rem 1.3125rem"
+    >
       <Header siteTitle={title} />
-      <Flex as="main" direction="column" flex={1} paddingY={2}>
+      <Flex as="main" direction="column" flex={1} marginY={4}>
         {children}
       </Flex>
       <Footer lastUpdated={lastUpdated} />
