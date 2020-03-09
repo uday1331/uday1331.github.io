@@ -58,9 +58,15 @@ export const ChakraUIRenderer = () => {
     },
     thematicBreak: Divider,
     link: Link,
-    img: Image,
+    img: (props: any) => {
+      console.log(props);
+      return <Image src={props.fluid.src} />;
+    },
     linkReference: Link,
-    imageReference: Image,
+    imageReference: (props: any) => {
+      console.log(props);
+      return <Image src={props.fluid.src} />;
+    },
     text: (props: Props) => {
       const { children } = props;
       return <Text as="span">{children}</Text>;

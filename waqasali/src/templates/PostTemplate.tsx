@@ -4,7 +4,7 @@ import { Heading, Text, Divider } from "@chakra-ui/core";
 import ReactMarkdown from "react-markdown";
 
 import { Layout, SEO } from "../components";
-import ChakraUIRenderer from "../components/ChakraUIRenderer";
+import ChakraUIRenderer from "./ChakraUIRenderer";
 
 const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { markdownRemark } = data;

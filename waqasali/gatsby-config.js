@@ -21,11 +21,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Waqas Ali`,
+        short_name: `waqas-ali`,
+        lang: `en`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#fff`,
         theme_color: `#663399`,
+        theme_color_in_head: false,
         display: `minimal-ui`,
         icon: `src/images/waqas-ali.jpg` // This path is relative to the root of the site.
       }
@@ -45,7 +47,19 @@ module.exports = {
         path: `${__dirname}/src/posts`
       }
     },
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590
+            }
+          }
+        ]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
