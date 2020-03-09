@@ -1,36 +1,31 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { Heading, Text, Divider } from "@chakra-ui/core";
-import ReactMarkdown from "react-markdown";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import { Layout, SEO } from "../components";
-import ChakraUIRenderer from "./ChakraUIRenderer";
 
 const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
-  const { markdownRemark } = data;
+  const { mdx } = data;
   const {
     frontmatter: { title, date, excerpt },
-    rawMarkdownBody
-  } = markdownRemark;
+    body
+  } = mdx;
   return (
     <Layout>
       <SEO title={title} description={excerpt} />
       <Heading size="xl">{title}</Heading>
       <Text>{date}</Text>
       <Divider />
-      <ReactMarkdown
-        renderers={ChakraUIRenderer()}
-        source={rawMarkdownBody}
-        escapeHtml={false}
-      />
+      <MDXRenderer>{body}</MDXRenderer>
     </Layout>
   );
 };
 
 export const pageQuery = graphql`
   query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      rawMarkdownBody
+    mdx(frontmatter: { path: { eq: $path } }) {
+      body
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

@@ -15,7 +15,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const projectsResult = await graphql(`
     {
-      allMarkdownRemark(
+      allMdx(
         filter: { fileAbsolutePath: { regex: "/src/projects/" } }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
@@ -36,7 +36,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  projectsResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  projectsResult.data.allMdx.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
       component: projectTemplate,
@@ -48,7 +48,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const postsResult = await graphql(`
     {
-      allMarkdownRemark(
+      allMdx(
         filter: { fileAbsolutePath: { regex: "/src/posts/" } }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
@@ -69,7 +69,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  postsResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  postsResult.data.allMdx.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
       component: postTemplate,

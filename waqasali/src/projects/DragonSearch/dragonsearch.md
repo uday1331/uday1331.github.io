@@ -5,15 +5,6 @@ date: "2019-11-03T12:00:00.000+08:00"
 highlight: true
 description: "A unique search engine which accepts realtime user feedback to help the user find exactly what they are looking for among millions of papers, authors and topics."
 preview_image: dragonsearch_2.jpeg
-gallery:
-  - image: dragonsearch_1.jpeg
-    alt: "Home page"
-  - image: dragonsearch_2.jpeg
-    alt: "Search results page"
-  - image: dragonsearch_3.jpeg
-    alt: "Collaboration network of selected author"
-  - image: dragonsearch_4.jpeg
-    alt: "Look back mode"
 ---
 
 DragonSearch is an academic research engine for financial researchers developed with accuracy and speed in time:
@@ -29,6 +20,16 @@ DragonSearch was developed by a 5-member University of Hong Kong team at Chengdu
 ## Awards
 
 - November 2019 - **Champion** - Chengdu80 2019 - Inter-university fintech competition in Chengdu, China
+
+## Screenshots
+
+![Home page](./dragonsearch_1.jpeg)
+
+![Search results page](./dragonsearch_2.jpeg)
+
+![Collaboration network of selected author](./dragonsearch_3.jpeg)
+
+![Look back mode](./dragonsearch_4.jpeg)
 
 ## Links
 

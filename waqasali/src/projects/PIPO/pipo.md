@@ -3,26 +3,7 @@ path: "/projects/pipo"
 title: "Personal IPO"
 date: "2018-11-04T12:00:00.000+08:00"
 description: "Intelligent Personal Valuation Platform. PIPO takes the company capital-raising concept and applies it to individuals."
-preview_image: "PIPO 4.2 Risk Analysis.png"
-gallery:
-  - image: "PIPO_feature_summary.png"
-    alt: "HKU Personal IPO Feature Summary"
-  - image: "PIPO 1. Login.png"
-    alt: "1. Login"
-  - image: "PIPO 2. Dashboard.png"
-    alt: "2. Dashboard"
-  - image: "PIPO 3. Invest.png"
-    alt: "3. Invest"
-  - image: "PIPO 4.1 Portfolio.png"
-    alt: "4.1 Portfolio"
-  - image: "PIPO 4.2 Risk Analysis.png"
-    alt: "4.2 Risk Analysis"
-  - image: "PIPO 5. Sign Up.png"
-    alt: "5. Sign Up"
-  - image: "PIPO 6. IPO Details.png"
-    alt: "6. IPO Details"
-  - image: "PIPO 7. Respond to bids.png"
-    alt: "7. Respond to bids"
+preview_image: "pipo_4_2.png"
 ---
 
 You may be familiar with the concept of a company raising capital by an initial public offering (IPO). PIPO takes this capital-raising concept and applies it to individuals.
@@ -57,7 +38,7 @@ HKU PIPO was developed at **Chengdu80 2018** over a course of 80 hours from **31
 ## Pitch
 
 <embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url=https://github.com/WaqasAliAbbasi/Chengdu80-HKU/raw/master/Chengdu%2080%20Final%20Pitch.pdf" width="250">
+viewer?embedded=true&url=https://github.com/WaqasAliAbbasi/Chengdu80-HKU/raw/master/Chengdu%2080%20Final%20Pitch.pdf" width="250"/>
 
 ## Tech
 
@@ -77,3 +58,23 @@ viewer?embedded=true&url=https://github.com/WaqasAliAbbasi/Chengdu80-HKU/raw/mas
 ### Machine Learning
 
 - Random Forest Classifier
+
+## Screenshots
+
+![HKU Personal IPO Feature Summary](./PIPO_feature_summary.png)
+
+![1. Login](./pipo_1.png)
+
+![2. Dashboard](./pipo_2.png)
+
+![3. Invest](./pipo_3.png)
+
+![4.1 Portfolio](./pipo_4_1.png)
+
+![4.2 Risk Analysis](./pipo_4_2.png)
+
+![5. Sign Up](./pipo_5.png)
+
+![6. IPO Details](./pipo_6.png)
+
+![7. Respond to bids](./pipo_7.png)

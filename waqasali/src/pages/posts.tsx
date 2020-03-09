@@ -20,7 +20,7 @@ const Post: React.FC<ProjectData> = ({ title, path, excerpt }) => (
 
 const Posts: React.FC<any> = ({
   data: {
-    allMarkdownRemark: { edges }
+    allMdx: { edges }
   }
 }) => {
   const projects = edges.map(
@@ -38,7 +38,7 @@ const Posts: React.FC<any> = ({
 
 export const postsQuery = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       filter: { fileAbsolutePath: { regex: "/src/posts/" } }
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000

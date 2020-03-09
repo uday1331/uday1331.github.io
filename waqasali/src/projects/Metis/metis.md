@@ -4,12 +4,11 @@ title: "Metis"
 date: "2017-08-05T12:00:00.000+08:00"
 description: "A complete solution for SMEs to remain competitive against big labels and online shops."
 preview_image: metisgroup.jpg
-gallery:
-  - image: metisgroup.jpg
-    alt: "Group photo"
 ---
 
 A complete solution for SMEs to remain competitive against big labels and online shops.
+
+![Group photo](./metisgroup.jpg)
 
 ## Links
 

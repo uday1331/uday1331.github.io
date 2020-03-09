@@ -4,12 +4,11 @@ title: "CreditSense"
 date: "2018-05-12T12:00:00.000+08:00"
 description: "A decentralized platform for automated credit scoring."
 preview_image: model.png
-gallery:
-  - image: model.png
-    alt: "Business model"
 ---
 
 A decentralized credit scoring service based on blockchain which employs deep learning to calculate an intelligent credit score based on the credit history, delinquencies and 73 other parameters which are usually accounted while calculating a comprehensive credit score.
+
+![Business Model](./model.png)
 
 ## Links
 

@@ -4,14 +4,15 @@ title: "Big Two"
 date: "2017-12-04T12:00:00.000+08:00"
 description: "A full-featured multiplayer networked card game made in Java."
 preview_image: client.png
-gallery:
-  - image: client.png
-    alt: "Client screen for the game."
-  - image: server.png
-    alt: "Server screen for the game."
 ---
 
 A full-featured multiplayer networked card game made in Java.
+
+## Screenshots
+
+![Client screen for the game.](./client.png)
+
+![Server screen for the game.](./server.png)
 
 ## Links
 

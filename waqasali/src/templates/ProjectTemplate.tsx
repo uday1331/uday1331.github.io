@@ -1,18 +1,18 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { Heading, Text, Divider } from "@chakra-ui/core";
-import ReactMarkdown from "react-markdown";
-import Img from "gatsby-image";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import { MDXProvider } from "@mdx-js/react";
 
 import { Layout, SEO } from "../components";
-import ChakraUIRenderer from "./ChakraUIRenderer";
+import ChakraUIMDXProvider from "./ChakraUIMDXProvider";
 
 const ProjectTemplate: React.FunctionComponent<any> = ({ data }) => {
-  const { markdownRemark } = data;
+  const { mdx } = data;
   const {
-    frontmatter: { title, date, description, gallery },
-    rawMarkdownBody
-  } = markdownRemark;
+    frontmatter: { title, date, description },
+    body
+  } = mdx;
 
   return (
     <Layout>
@@ -20,37 +20,22 @@ const ProjectTemplate: React.FunctionComponent<any> = ({ data }) => {
       <Heading size="xl">{title}</Heading>
       <Text>{date}</Text>
       <Divider />
-      {gallery &&
-        gallery.map(({ image: { childImageSharp: { fluid } } }: any) => (
-          <Img fluid={fluid} style={{ width: 100 }} />
-        ))}
-      <ReactMarkdown
-        renderers={ChakraUIRenderer()}
-        source={rawMarkdownBody}
-        escapeHtml={false}
-      />
+      <MDXProvider components={ChakraUIMDXProvider()}>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
     </Layout>
   );
 };
 
 export const pageQuery = graphql`
   query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      rawMarkdownBody
+    mdx(frontmatter: { path: { eq: $path } }) {
+      body
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
         title
         description
-        gallery {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
       }
     }
   }

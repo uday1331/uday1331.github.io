@@ -4,14 +4,15 @@ title: "FUT Grapher"
 date: "2018-01-15T12:00:00.000+08:00"
 description: "A python app which suggests the best squad for Fifa Ultimate Team using graph theory."
 preview_image: squad_suggestions.png
-gallery:
-  - image: fifa18_UT.jpg
-    alt: "Fifa 18 Ultimate Team"
-  - image: squad_suggestions.png
-    alt: "Squad suggestions"
 ---
 
 A python app which suggests the best squad for Fifa Ultimate Team using graph theory.
+
+## Screenshots
+
+![Fifa 18 Ultimate Team](./fifa18_UT.jpg)
+
+![Squad suggestions](./squad_suggestions.png)
 
 ## Links
 

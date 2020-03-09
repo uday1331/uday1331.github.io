@@ -4,14 +4,15 @@ title: "Chairman"
 date: "2018-04-22T12:00:00.000+08:00"
 description: "A R-CNN powered person detection model to inexpensively detect free learning spaces around university campus."
 preview_image: chairman_exhibition.jpg
-gallery:
-  - image: person_detect.jpg
-    alt: "Person Detection R-CNN Model"
-  - image: chairman_exhibition.jpg
-    alt: "Exhibition at HackUST 2018"
 ---
 
 Chairman is the superhero that helps students find empty seats in learning spaces around a university campus.
+
+## Screenshots
+
+![Person Detection R-CNN Model](./person_detect.jpg)
+
+![Exhibition at HackUST 2018](./chairman_exhibition.jpg)
 
 ## Links
 

@@ -4,16 +4,7 @@ title: "Chi Sun Mobile App"
 highlight: true
 date: "2019-03-26T12:00:00.000+08:00"
 description: "Mobile app built using react native and graphQL for Chi Sun College of University of Hong Kong."
-preview_image: "CSM 2 Menu.png"
-gallery:
-  - image: "CSM 2 Menu.png"
-    alt: "Features available in the app"
-  - image: "CSM 3 Events.png"
-    alt: "Events this week and later"
-  - image: "CSM 4 Event Page.png"
-    alt: "Event Page"
-  - image: "CSM 5 Groups.png"
-    alt: "Groups in the college"
+preview_image: "csm_2_menu.png"
 ---
 
 Developed by the college's Turing Club, the mobile app is the one-stop shop for everything Chi Sun College at University of Hong Kong:
@@ -22,6 +13,16 @@ Developed by the college's Turing Club, the mobile app is the one-stop shop for 
 - Current groups/societies/teams and how to join them
 - Contact information for management/tutorial team
 - Links for room booking, college website and social media
+
+## Screenshots
+
+![Features available in the app](./csm_2_menu.png)
+
+![Events this week and later](./csm_3_events.png)
+
+![Event Page](./csm_4_event_page.png)
+
+![Groups in the college](./csm_5_groups.png)
 
 ## Links
 

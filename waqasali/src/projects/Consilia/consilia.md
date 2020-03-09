@@ -4,10 +4,9 @@ title: "Consilia"
 date: "2018-01-28T12:00:00.000+08:00"
 description: "A smart academic planner for HKU."
 preview_image: course_planner.png
-gallery:
-  - image: course_planner.png
-    alt: "Course planner"
 ---
+
+![Course Planner](./course_planner.png)
 
 A smart academic planner developed to solve academic planning problems at University of Hong Kong.
 
