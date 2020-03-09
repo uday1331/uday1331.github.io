@@ -1,5 +1,5 @@
 ---
-path: "/projects/creditsense"
+path: "/work/creditsense"
 title: "CreditSense"
 date: "2018-05-12T12:00:00.000+08:00"
 description: "A decentralized platform for automated credit scoring."

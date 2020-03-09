@@ -1,5 +1,5 @@
 ---
-path: "/projects/pipo"
+path: "/work/pipo"
 title: "Personal IPO"
 date: "2018-11-04T12:00:00.000+08:00"
 description: "Intelligent Personal Valuation Platform. PIPO takes the company capital-raising concept and applies it to individuals."

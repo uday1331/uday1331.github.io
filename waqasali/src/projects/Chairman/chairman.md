@@ -1,5 +1,5 @@
 ---
-path: "/projects/chairman"
+path: "/work/chairman"
 title: "Chairman"
 date: "2018-04-22T12:00:00.000+08:00"
 description: "A R-CNN powered person detection model to inexpensively detect free learning spaces around university campus."

@@ -1,5 +1,5 @@
 ---
-path: "/projects/studentbase"
+path: "/work/studentbase"
 title: "StudentBase"
 date: "2020-01-11T12:00:00.000+08:00"
 highlight: true

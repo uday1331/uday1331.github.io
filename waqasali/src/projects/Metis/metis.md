@@ -1,5 +1,5 @@
 ---
-path: "/projects/metis"
+path: "/work/metis"
 title: "Metis"
 date: "2017-08-05T12:00:00.000+08:00"
 description: "A complete solution for SMEs to remain competitive against big labels and online shops."

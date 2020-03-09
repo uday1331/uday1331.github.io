@@ -1,7 +1,15 @@
 import React from "react";
 
 import { Layout, SEO } from "../components";
-import { List, ListItem, Link } from "@chakra-ui/core";
+import {
+  Link,
+  Stack,
+  StatLabel,
+  StatNumber,
+  Stat,
+  StatHelpText,
+  Divider
+} from "@chakra-ui/core";
 
 interface AwardData {
   rank: number;
@@ -15,7 +23,7 @@ const awards: AwardData[] = [
   {
     rank: 1,
     awards: ["Champion"],
-    date: "November 2019",
+    date: "11/01/2019",
     title:
       "Chengdu80 2019 - Inter-university fintech competition in Chengdu, China",
     project: "/work/dragonsearch"
@@ -23,20 +31,20 @@ const awards: AwardData[] = [
   {
     rank: 1,
     awards: ["Champion"],
-    date: "May 2018",
+    date: "05/01/2018",
     title: "PolyU x Radica BigDatathon 2018",
     link: "https://www.datavalleyhk.com/bigdatathon"
   },
   {
     rank: 1,
     awards: ["Champion"],
-    date: "November 2017",
+    date: "11/01/2017",
     title: "SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong"
   },
   {
     rank: 2,
-    awards: ["Runner-up Outstanding Team", "Best Presentation Team"],
-    date: "June 2019",
+    awards: ["Runner-up", "Best Presentation"],
+    date: "06/01/2019",
     title: "BEA 100 Fintech Challenge",
     link: "https://www.hkbea.com/bea100fc/",
     project: "https://github.com/piy0999/Unicorns-First"
@@ -44,7 +52,7 @@ const awards: AwardData[] = [
   {
     rank: 2,
     awards: ["Runner-up"],
-    date: "April 2019",
+    date: "04/01/2019",
     title: "The Innovator Tribank Fintech Challenge 2019",
     link: "https://www.shacombank.com.hk/eng/main/fintech/2019/index.jsp",
     project: "https://github.com/piy0999/Unicorns-First"
@@ -52,7 +60,7 @@ const awards: AwardData[] = [
   {
     rank: 2,
     awards: ["Runner-up"],
-    date: "November 2018",
+    date: "11/01/2018",
     title: "Chengdu80 2018",
     link: "https://www.cs.hku.hk/news/display.jsp?file=2018/1109_Chengdu80.htm",
     project: "/work/pipo"
@@ -60,7 +68,7 @@ const awards: AwardData[] = [
   {
     rank: 2,
     awards: ["Runner-up", "Most Innovative Award"],
-    date: "May 2018",
+    date: "05/01/2018",
     title: "Imagine Cup Hong Kong Finals",
     link: "https://www.facebook.com/msphongkong/posts/1028750247300048",
     project: "/work/creditsense"
@@ -68,7 +76,7 @@ const awards: AwardData[] = [
   {
     rank: 2,
     awards: ["Runner-up"],
-    date: "March 2018",
+    date: "03/01/2018",
     title: "HKU Global Challenges, Local Solutions 2018",
     link:
       "https://www.sustainability.hku.hk/event/global-challenges-local-solutions-changing-lives-for-good"
@@ -76,34 +84,34 @@ const awards: AwardData[] = [
   {
     rank: 2,
     awards: ["Runner-up"],
-    date: "December 2017",
+    date: "12/01/2017",
     title: "SCB (Shanghai Commercial Bank) Greater China Fintech Competition"
   },
   {
     rank: 2,
     awards: ["Runner-up"],
-    date: "December 2017",
+    date: "12/01/2017",
     title: "HSBC Safeguard App Competition"
   },
   {
     rank: 3,
     awards: ["3rd Place"],
-    date: "August 2017",
+    date: "08/01/2017",
     title: "//oneweek (Microsoft Internal Hackathon)",
     project: "/work/metis"
   },
   {
     rank: 4,
     awards: ["Incubated"],
-    date: "March 2019",
+    date: "03/01/2019",
     title: "iDendron | HKU Innovation & Entrepreneurship Hub",
     link: "https://idendron.hku.hk/",
     project: "http://takedailydose.com/"
   },
   {
     rank: 1,
-    awards: ["HKD$ 100,000 Seed Fund"],
-    date: "May 2018",
+    awards: ["HK$100,000 Seed Fund"],
+    date: "05/01/2018",
     title: "CCMF (Cyberbort Creative Micro Fund)",
     link:
       "https://www.cyberport.hk/en/about_cyberport/cyberport_youth/cyberport_creative_micro_fund",
@@ -137,19 +145,28 @@ const Award: React.FunctionComponent<AwardData> = ({
   awards
 }) => {
   return (
-    <ListItem>
-      <span>{formatDate(date)} - </span>
-      {link ? <Link href={link}>{title}</Link> : title}
-      {project && <Link href={project}> - Project</Link>}
-      <span> - {awards.join(", ")}</span>
-    </ListItem>
+    <Stat>
+      <StatLabel>
+        {formatDate(date)}
+        {project && (
+          <span>
+            <span> - </span>
+            <Link href={project}>See Project</Link>
+          </span>
+        )}
+      </StatLabel>
+      <StatNumber>{awards.join(", ")}</StatNumber>
+      <StatHelpText>
+        {link ? <Link href={link}>{title}</Link> : title}
+      </StatHelpText>
+    </Stat>
   );
 };
 
 const Awards = () => (
   <Layout>
     <SEO title="Awards" />
-    <List>
+    <Stack>
       {awards
         .sort(
           (a, b) =>
@@ -157,9 +174,12 @@ const Awards = () => (
             new Date(b.date).getTime() - new Date(a.date).getTime()
         )
         .map((award, key) => (
-          <Award key={key} {...award} />
+          <>
+            <Award key={key} {...award} />
+            {key < awards.length - 1 && <Divider />}
+          </>
         ))}
-    </List>
+    </Stack>
   </Layout>
 );
 

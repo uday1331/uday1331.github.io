@@ -1,5 +1,5 @@
 ---
-path: "/projects/chisuncollegemobileapp"
+path: "/work/chisunmobileapp"
 title: "Chi Sun Mobile App"
 highlight: true
 date: "2019-03-26T12:00:00.000+08:00"

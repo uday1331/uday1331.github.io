@@ -1,5 +1,5 @@
 ---
-path: "/projects/dragonsearch"
+path: "/work/dragonsearch"
 title: "Dragon Search"
 date: "2019-11-03T12:00:00.000+08:00"
 highlight: true

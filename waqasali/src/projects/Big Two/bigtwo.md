@@ -1,5 +1,5 @@
 ---
-path: "/projects/bigtwo"
+path: "/work/bigtwo"
 title: "Big Two"
 date: "2017-12-04T12:00:00.000+08:00"
 description: "A full-featured multiplayer networked card game made in Java."

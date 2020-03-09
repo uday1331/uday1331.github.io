@@ -1,5 +1,5 @@
 ---
-path: "/projects/consilia"
+path: "/work/consilia"
 title: "Consilia"
 date: "2018-01-28T12:00:00.000+08:00"
 description: "A smart academic planner for HKU."

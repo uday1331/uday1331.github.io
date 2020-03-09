@@ -1,5 +1,5 @@
 ---
-path: "/projects/time"
+path: "/work/time"
 title: "Time"
 date: "2016-12-01T12:00:00.000+08:00"
 description: "A Virtual Reality cross-platform game built using C#, Unity and Sketchup to promote heritage of Kowloon Walled City Hong Kong."

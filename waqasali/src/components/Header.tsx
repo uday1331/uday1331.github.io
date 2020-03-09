@@ -20,7 +20,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
     { title: "Awards", path: "/awards" },
-    { title: "Projects", path: "/projects" },
+    { title: "Projects", path: "/work" },
     { title: "Blog", path: "/blog" }
   ];
 
