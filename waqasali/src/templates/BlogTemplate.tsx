@@ -2,10 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 import { Heading, Text, Divider } from "@chakra-ui/core";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { MDXProvider } from "@mdx-js/react";
 
 import { Layout, SEO } from "../components";
+import { ChakraUIMDXProvider } from "./ChakraUIMDXProvider";
 
-const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
+const BlogTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { mdx } = data;
   const {
     frontmatter: { title, date, excerpt },
@@ -17,12 +19,14 @@ const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
       <Heading size="xl">{title}</Heading>
       <Text>{date}</Text>
       <Divider />
-      <MDXRenderer>{body}</MDXRenderer>
+      <MDXProvider components={ChakraUIMDXProvider()}>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
     </Layout>
   );
 };
 
-export const pageQuery = graphql`
+export const blogQuery = graphql`
   query($path: String!) {
     mdx(frontmatter: { path: { eq: $path } }) {
       body
@@ -36,4 +40,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default PostTemplate;
+export default BlogTemplate;

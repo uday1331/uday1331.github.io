@@ -14,7 +14,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
     { title: "Resume", path: "/resume" },
     { title: "Awards", path: "/awards" },
     { title: "Projects", path: "/projects" },
-    { title: "Posts", path: "/posts" }
+    { title: "Blog", path: "/blog" }
   ];
 
   return (

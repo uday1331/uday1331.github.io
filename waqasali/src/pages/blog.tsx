@@ -4,12 +4,13 @@ import { SEO, Layout, InternalLink } from "../components";
 import { Text, Box } from "@chakra-ui/core";
 import { graphql } from "gatsby";
 
-interface ProjectData {
+interface BlogData {
   title: string;
   path: string;
   excerpt: string;
 }
-const Post: React.FC<ProjectData> = ({ title, path, excerpt }) => (
+
+const Blog: React.FC<BlogData> = ({ title, path, excerpt }) => (
   <Box>
     <InternalLink to={path}>
       <Text>{title}</Text>
@@ -18,28 +19,28 @@ const Post: React.FC<ProjectData> = ({ title, path, excerpt }) => (
   </Box>
 );
 
-const Posts: React.FC<any> = ({
+const Blogs: React.FC<any> = ({
   data: {
     allMdx: { edges }
   }
 }) => {
-  const projects = edges.map(
+  const blogs = edges.map(
     ({ node: { frontmatter } }: any) => frontmatter
-  ) as ProjectData[];
+  ) as BlogData[];
   return (
     <Layout>
       <SEO title="Projects" />
-      {projects.map(({ path, title, excerpt }, key) => (
-        <Post key={key} title={title} path={path} excerpt={excerpt} />
+      {blogs.map((blog, key) => (
+        <Blog key={key} {...blog} />
       ))}
     </Layout>
   );
 };
 
-export const postsQuery = graphql`
+export const blogsQuery = graphql`
   query {
     allMdx(
-      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+      filter: { fileAbsolutePath: { regex: "/src/blogs/" } }
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
     ) {
@@ -56,4 +57,4 @@ export const postsQuery = graphql`
   }
 `;
 
-export default Posts;
+export default Blogs;

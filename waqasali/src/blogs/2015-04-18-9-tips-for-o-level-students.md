@@ -1,5 +1,5 @@
 ---
-path: "/posts/9-tips-for-o-level-students"
+path: "/blog/9-tips-for-o-level-students"
 title: 9 Tips for O Level Students
 date: "2015-04-18T18:31:00.002+05:00"
 excerpt: "A few tips for O Level students based on my experiences."
