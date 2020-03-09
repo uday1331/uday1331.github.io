@@ -8,7 +8,8 @@ import {
   IconButton,
   useColorMode,
   Box,
-  Text
+  Text,
+  Link
 } from "@chakra-ui/core";
 import { InternalLink } from "./InternalLink";
 import { customTheme } from "../theme";
@@ -18,7 +19,6 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
 }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
-    { title: "Resume", path: "/resume" },
     { title: "Awards", path: "/awards" },
     { title: "Projects", path: "/projects" },
     { title: "Blog", path: "/blog" }
@@ -57,6 +57,9 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
           />
         </InternalLink>
         <Text marginX={2}>|</Text>
+        <Link href="/docs/resume.pdf" marginRight={2}>
+          Resume
+        </Link>
         {navigationBar.map(({ title, path }) => (
           <Flex marginRight={2} key={path}>
             <InternalLink
