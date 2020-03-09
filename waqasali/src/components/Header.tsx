@@ -3,7 +3,7 @@ import React from "react";
 import { Portrait } from "./";
 import { Flex, Heading, IconButton, useColorMode } from "@chakra-ui/core";
 import { InternalLink } from "./InternalLink";
-import { customTheme } from "../gatsby-plugin-chakra-ui/theme";
+import { customTheme } from "../theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle

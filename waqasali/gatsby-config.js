@@ -3,7 +3,11 @@ module.exports = {
     title: `Waqas Ali`,
     description: `Hi, I am Waqas and this is my personal website describing my projects, experience and achievements so far.`,
     author: `@waqasaliabbasi`,
-    lastUpdated: `4 March 2020`
+    lastUpdated: `4 March 2020`,
+    twitter: "totally_waqas",
+    github: "WaqasAliAbbasi",
+    linkedin: "waqasaliabbasi",
+    email: "waqas.abbasi@outlook.com"
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -32,7 +36,6 @@ module.exports = {
         icon: `src/images/waqas-ali.jpg` // This path is relative to the root of the site.
       }
     },
-    "gatsby-plugin-chakra-ui",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
