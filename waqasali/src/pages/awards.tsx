@@ -154,7 +154,7 @@ const Awards = () => (
         .sort(
           (a, b) =>
             a.rank - b.rank ||
-            new Date(a.date).getUTCSeconds() - new Date(b.date).getUTCSeconds()
+            new Date(b.date).getTime() - new Date(a.date).getTime()
         )
         .map((award, key) => (
           <Award key={key} {...award} />

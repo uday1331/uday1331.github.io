@@ -30,16 +30,11 @@ export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
     delete: props => <Text as="del" {...props} />,
     inlineCode: Code,
     a: Link,
-    code: props => {
-      const { language, value } = props;
-      return (
-        <pre>
-          <Code p={2} className={language && `language-${language}`}>
-            {value}
-          </Code>
-        </pre>
-      );
-    },
+    code: props => (
+      <pre>
+        <Code p={2} {...props} />
+      </pre>
+    ),
     ul: props => <List pl={4} styleType="disc" {...props} />,
     ol: props => <List pl={4} as="ol" styleType="decimal" {...props} />,
     li: ListItem,
