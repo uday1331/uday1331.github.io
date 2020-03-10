@@ -1,5 +1,6 @@
 import React from "react";
 import { TiHomeOutline } from "react-icons/ti";
+import { globalHistory } from "@reach/router";
 
 import { Portrait } from ".";
 import {
@@ -48,7 +49,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
             as={TiHomeOutline}
             size="15px"
             color={
-              `/${window.location.pathname.split("/")?.[1]}` === "/"
+              `/${globalHistory.location.pathname.split("/")?.[1]}` === "/"
                 ? colorMode === "dark"
                   ? customTheme.colors.primary[300]
                   : customTheme.colors.primary[500]
@@ -65,7 +66,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
             <InternalLink
               to={path}
               color={
-                `/${window.location.pathname.split("/")?.[1]}` === path
+                `/${globalHistory.location.pathname.split("/")?.[1]}` === path
                   ? colorMode === "dark"
                     ? customTheme.colors.primary[300]
                     : customTheme.colors.primary[500]
