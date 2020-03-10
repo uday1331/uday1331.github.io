@@ -1,29 +1,39 @@
 import React from "react";
 
 import { SEO, Layout, InternalLink } from "../components";
-import { Text, Box } from "@chakra-ui/core";
+import { Text, Box, Heading, Grid } from "@chakra-ui/core";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import { truncateText } from "../utils";
 
 interface ProjectData {
   title: string;
   path: string;
   description: string;
   preview_image: any;
+  date: string;
 }
 const Project: React.FC<ProjectData> = ({
   title,
   path,
   description,
-  preview_image
+  preview_image,
+  date
 }) => (
-  <Box>
-    <InternalLink to={path}>
-      <Text>{title}</Text>
-      <Text>{description}</Text>
-      <Img fluid={preview_image.childImageSharp.fluid} style={{ width: 100 }} />
-    </InternalLink>
-  </Box>
+  <InternalLink to={path}>
+    <Box padding={2}>
+      <Img fluid={preview_image.childImageSharp.fluid} />
+      <Heading size="md" marginTop={1}>
+        {title}
+      </Heading>
+      <Text fontSize="xs" fontWeight="light">
+        {date}
+      </Text>
+      <Text fontSize="sm" fontWeight="light">
+        {truncateText({ text: description, maxLength: 100 })}
+      </Text>
+    </Box>
+  </InternalLink>
 );
 
 const Projects: React.FC<any> = ({
@@ -37,15 +47,11 @@ const Projects: React.FC<any> = ({
   return (
     <Layout>
       <SEO title="Projects" />
-      {projects.map(({ path, title, description, preview_image }, key) => (
-        <Project
-          key={key}
-          title={title}
-          path={path}
-          description={description}
-          preview_image={preview_image}
-        />
-      ))}
+      <Grid templateColumns="repeat( auto-fit, minmax(150px, 1fr) )" gap={6}>
+        {projects.map((project, key) => (
+          <Project key={key} {...project} />
+        ))}
+      </Grid>
     </Layout>
   );
 };
@@ -63,9 +69,10 @@ export const projectsQuery = graphql`
             path
             title
             description
+            date(formatString: "MMMM DD, YYYY")
             preview_image {
               childImageSharp {
-                fluid(maxWidth: 800) {
+                fluid(maxWidth: 200, maxHeight: 100, fit: COVER) {
                   ...GatsbyImageSharpFluid
                 }
               }
