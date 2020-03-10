@@ -40,8 +40,10 @@ export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
         <Code p={2} {...props} />
       </pre>
     ),
-    ul: props => <List pl={4} styleType="disc" {...props} />,
-    ol: props => <List pl={4} as="ol" styleType="decimal" {...props} />,
+    ul: props => <List pl={4} pb={3} styleType="disc" {...props} spacing={1} />,
+    ol: props => (
+      <List pl={4} pb={3} as="ol" styleType="decimal" {...props} spacing={1} />
+    ),
     li: ListItem,
     img: Image
   };

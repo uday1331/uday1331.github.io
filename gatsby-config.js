@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Waqas Ali`,
     description: `Hi, I am Waqas and this is my personal website describing my projects, experience and achievements so far.`,
-    lastUpdated: `2 March 2020`,
+    lastUpdated: `10 March 2020`,
     twitter: "@totally_waqas",
     github: "WaqasAliAbbasi",
     linkedin: "waqasaliabbasi",

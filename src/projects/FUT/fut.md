@@ -26,7 +26,7 @@ The best squads in fifa ultimate team are the ones with the highest overall rati
 2.  Same League
 3.  Same Nationality
 
-If one attribute is similar there is a orange link. If there are two similar attributes then there is a green link. The more green and orange links there are, the higher chemistry the team has.
+If any attribute is similar, there is a orange link. If there are two similar attributes, there is a green link. The more green and orange links there are, the higher chemistry the team has.
 
 ## Problem
 

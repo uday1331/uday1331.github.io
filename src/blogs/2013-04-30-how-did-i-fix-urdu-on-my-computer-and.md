@@ -1,8 +1,8 @@
 ---
 path: "/blog/how-did-i-fix-urdu-on-my-computer-and"
-title: How did I Fix Urdu اردو on My Computer and Internet
+title: How I fixed Urdu اردو on my computer
 date: "2013-04-30T07:05:00.000+05:00"
-excerpt: "If you want to read and write Urdu on your computer easily, this post is for you."
+excerpt: "If you want to read and write Urdu on your computer easily, this is for you."
 tags: [Tutorial]
 ---
 
@@ -32,7 +32,6 @@ After that whenever you want to type in urdu just press Shift+Alt and you will b
 ### 2. Install Urdu Fonts
 
 1. To get Urdu fonts on your computer install the [Pak Urdu Installer](https://www.mbilalm.com/download/pak-urdu-installer.php) which includes artistic font ["Jameel Noori Nastaleeq"](https://www.mbilalm.com/urdu-font.php),CRULP font ["Nafees Web Naskh"](https://www.crulp.org/) and BBC Urdu font ["Urdu Naskh Asia Type"](https://www.bbc.co.uk/urdu/). These all are Unicode True Type font (ttf).
-
 2. Install [these](https://www.alislam.org/urdu/font/UrduFonts.exe) as well.
 
 Once you install the above fonts, you will notice improved fonts in many urdu websites. Also, you can now write in Urdu in these fonts.
@@ -80,11 +79,7 @@ Go to [chrome://settings/searchEngines](chrome://settings/searchEngines) and the
 
 Hover over the last column of clepk.org line and click _make default_.
 
-![Default Search Engine](https://waqasabbasi7.files.wordpress.com/2013/04/make-default.png)
-
 Now your default search engine is a urdu dictionary. But you can change that by going into [chrome://settings/](chrome://settings/) and going to search section and changing search engine.
-
-![Search Engine Change](https://waqasabbasi7.files.wordpress.com/2013/04/urdu.png)
 
 Now open up a urdu article. A good one is Iqbal's [Shikwa](https://asraghauris.wordpress.com/2013/01/26/iqbal-ka-shikwa/). Right click any urdu after selecting it and press search clepk.org for "(word)". The clepk dictionary is the best I have found
 on the internet. It may not have all words but it is a good one. If you have suggestions regarding dictionary do tell.

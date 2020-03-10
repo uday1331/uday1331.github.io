@@ -91,8 +91,6 @@ They are looking for passionate students with genuine interest. So discover your
 
 ### 6. Learning Style - Work Hard "Smartly"
 
-![Learning Syles](https://www.loving2learn.com/Portals/0/Challenges/Charts/Learning%20Syles%20Chart/Learning%20Style%20Charts.GIF)
-
 Each one of us has a different learning style and the earlier we recognize it, the better. Don't fret over the fact that you are not spending as much time on your books as your friend does. Each one of us is different and what works for one, may not work for others.
 
 Search for [learning styles](https://www.learning-styles-online.com/overview/) on the web and you will find a lot of material. Experiment new things and strategies, and find something that works for you.
@@ -132,5 +130,3 @@ So these are the 9 tips:
 9. Enjoy!
 
 I wish you the best of luck (and grades) :)
-
-Don't forget to leave feedback. Share your opinions and if you have any questions fire away. Thank You for reading.

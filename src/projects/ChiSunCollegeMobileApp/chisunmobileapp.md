@@ -3,8 +3,8 @@ path: "/work/chisunmobileapp"
 title: "Chi Sun Mobile App"
 highlight: true
 date: "2019-03-26T12:00:00.000+08:00"
-description: "Mobile app built using react native and graphQL for Chi Sun College of University of Hong Kong."
-preview_image: "csm_2_menu.png"
+description: "Mobile app built using React Native and GraphQL for Chi Sun College of University of Hong Kong."
+preview_image: "csm_1_splash.png"
 ---
 
 Developed by the college's Turing Club, the mobile app is the one-stop shop for everything Chi Sun College at University of Hong Kong:
