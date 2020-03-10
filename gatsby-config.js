@@ -11,6 +11,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-typescript`,
     "gatsby-plugin-typescript-checker",
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-46712607-5",
+        head: true
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -19,6 +26,7 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    `gatsby-plugin-chakra-ui`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -62,8 +70,7 @@ module.exports = {
           }
         ]
       }
-    },
-    `gatsby-plugin-chakra-ui`
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
