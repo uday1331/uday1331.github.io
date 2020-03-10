@@ -8,4 +8,11 @@ export const customTheme = {
   }
 };
 
+export const PRIMARY_COLOR = "purple";
+
+export const getPrimaryColor = (colorMode: "dark" | "light") =>
+  colorMode === "dark"
+    ? customTheme.colors.primary[300]
+    : customTheme.colors.primary[500];
+
 export default customTheme;

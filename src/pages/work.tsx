@@ -1,6 +1,4 @@
 import React from "react";
-
-import { SEO, Layout, InternalLink } from "../components";
 import {
   Text,
   Box,
@@ -12,7 +10,10 @@ import {
 } from "@chakra-ui/core";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+
+import { SEO, Layout, InternalLink } from "../components";
 import { truncateText } from "../utils";
+import { PRIMARY_COLOR } from "../theme";
 
 interface ProjectData {
   title: string;
@@ -35,7 +36,7 @@ const Project: React.FC<ProjectData> = ({
       <Heading size="md" marginTop={1}>
         {title}
       </Heading>
-      <Text fontSize="xs" fontWeight="light">
+      <Text fontSize="xs" fontWeight="light" marginBottom={1}>
         {date}
       </Text>
       <Text fontSize="sm" fontWeight="light">
@@ -66,6 +67,7 @@ const Projects: React.FC<any> = ({
           id="show-all"
           aria-label="Show All Projects"
           value={showAll}
+          color={PRIMARY_COLOR}
           onChange={() => setshowAll(!showAll)}
         />
       </Flex>

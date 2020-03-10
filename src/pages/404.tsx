@@ -1,7 +1,7 @@
 import React from "react";
+import { Text, Heading } from "@chakra-ui/core";
 
 import { Layout, SEO } from "../components";
-import { Text, Heading } from "@chakra-ui/core";
 
 const NotFoundPage = () => (
   <Layout>

@@ -1,8 +1,8 @@
 import React from "react";
+import { Text, Box, Heading, Stack, PseudoBox } from "@chakra-ui/core";
+import { graphql } from "gatsby";
 
 import { SEO, Layout, InternalLink } from "../components";
-import { Text, Box, Heading, Stack, Divider, PseudoBox } from "@chakra-ui/core";
-import { graphql } from "gatsby";
 
 interface BlogData {
   title: string;

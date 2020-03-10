@@ -1,6 +1,4 @@
 import React from "react";
-
-import { Layout, SEO } from "../components";
 import {
   Link,
   Stack,
@@ -10,6 +8,8 @@ import {
   StatHelpText,
   Divider
 } from "@chakra-ui/core";
+
+import { Layout, SEO } from "../components";
 
 interface AchievementData {
   rank: number;

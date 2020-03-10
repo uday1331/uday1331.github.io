@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Waqas Ali`,
     description: `Hi, I am Waqas and this is my personal website describing my projects, experience and achievements so far.`,
-    lastUpdated: `4 March 2020`,
+    lastUpdated: `2 March 2020`,
     twitter: "@totally_waqas",
     github: "WaqasAliAbbasi",
     linkedin: "waqasaliabbasi",
@@ -62,7 +62,8 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    `gatsby-plugin-chakra-ui`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

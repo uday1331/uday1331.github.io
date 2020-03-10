@@ -1,8 +1,6 @@
 import React from "react";
 import { TiHomeOutline } from "react-icons/ti";
 import { globalHistory } from "@reach/router";
-
-import { Portrait } from ".";
 import {
   Flex,
   Heading,
@@ -12,15 +10,17 @@ import {
   Text,
   Link
 } from "@chakra-ui/core";
+
+import { Portrait } from ".";
 import { InternalLink } from "./InternalLink";
-import { customTheme } from "../theme";
+import { getPrimaryColor } from "../theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle
 }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
-    { title: "Achievements", path: "/achievements" },
+    { title: "Awards", path: "/achievements" },
     { title: "Projects", path: "/work" },
     { title: "Blog", path: "/blog" }
   ];
@@ -50,15 +50,13 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
             size="15px"
             color={
               `/${globalHistory.location.pathname.split("/")?.[1]}` === "/"
-                ? colorMode === "dark"
-                  ? customTheme.colors.primary[300]
-                  : customTheme.colors.primary[500]
+                ? getPrimaryColor(colorMode)
                 : undefined
             }
           />
         </InternalLink>
         <Text marginX={2}>|</Text>
-        <Link href="/docs/resume.pdf" marginRight={2}>
+        <Link href="/assets/docs/resume.pdf" marginRight={2}>
           Resume
         </Link>
         {navigationBar.map(({ title, path }) => (
@@ -67,9 +65,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
               to={path}
               color={
                 `/${globalHistory.location.pathname.split("/")?.[1]}` === path
-                  ? colorMode === "dark"
-                    ? customTheme.colors.primary[300]
-                    : customTheme.colors.primary[500]
+                  ? getPrimaryColor(colorMode)
                   : undefined
               }
             >
