@@ -7,7 +7,7 @@ description: "A unique search engine which accepts realtime user feedback to hel
 preview_image: dragonsearch_2.jpeg
 ---
 
-DragonSearch is an academic research engine for financial researchers developed with accuracy and speed in time:
+DragonSearch is an academic search engine for financial researchers developed with accuracy and speed in mind:
 
 - Instead of putting in a keyword and sorting through the results, the user can choose what authors, topics and papers they like and the results will change based on the feedback.
 - We build upon [G-index](https://en.wikipedia.org/wiki/G-index) by also taking into account published date of papers.

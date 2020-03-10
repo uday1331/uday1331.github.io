@@ -13,7 +13,7 @@ import {
 
 import { Portrait } from ".";
 import { InternalLink } from "./InternalLink";
-import { getPrimaryColor } from "../theme";
+import customTheme, { getPrimaryColor } from "../theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle
@@ -21,8 +21,8 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
     { title: "Awards", path: "/achievements" },
-    { title: "Projects", path: "/work" },
-    { title: "Blog", path: "/blog" }
+    { title: "Projects", path: "/work" }
+    // { title: "Blog", path: "/blog" }
   ];
 
   return (
@@ -39,6 +39,11 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
         <IconButton
           aria-label="Dark Mode"
           size="xs"
+          background={
+            colorMode === "dark"
+              ? customTheme.colors.gray[700]
+              : customTheme.colors.gray[100]
+          }
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
         />
