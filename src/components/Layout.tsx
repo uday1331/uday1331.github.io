@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Flex } from "@chakra-ui/core";
 
-import { Header } from "./";
+import { Header } from ".";
 import { Footer } from "./Footer";
 
 export const Layout: React.FunctionComponent<{
