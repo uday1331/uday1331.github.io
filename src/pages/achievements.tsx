@@ -26,6 +26,8 @@ const awards: AchievementData[] = [
     date: "11/01/2019",
     title:
       "Chengdu80 2019 - Inter-university fintech competition in Chengdu, China",
+    link:
+      "https://www.cs.hku.hk/news-events/news-and-announcements/20191104_Chengdu_2019",
     project: "/work/dragonsearch"
   },
   {
@@ -55,8 +57,8 @@ const awards: AchievementData[] = [
     rank: 2,
     awards: ["Runner-up"],
     date: "11/01/2018",
-    title: "Chengdu80 2018",
-    link: "https://www.cs.hku.hk/news/display.jsp?file=2018/1109_Chengdu80.htm",
+    title:
+      "Chengdu80 2018 - Inter-university fintech competition in Chengdu, China",
     project: "/work/pipo"
   },
   {
