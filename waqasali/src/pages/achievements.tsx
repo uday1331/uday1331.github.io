@@ -11,7 +11,7 @@ import {
   Divider
 } from "@chakra-ui/core";
 
-interface AwardData {
+interface AchievementData {
   rank: number;
   awards: string[];
   date: string;
@@ -19,7 +19,7 @@ interface AwardData {
   link?: string;
   project?: string;
 }
-const awards: AwardData[] = [
+const awards: AchievementData[] = [
   {
     rank: 1,
     awards: ["Champion"],
@@ -137,7 +137,7 @@ const MONTH_NAMES = [
 const formatDate = (date: string): string =>
   `${MONTH_NAMES[new Date(date).getMonth()]} ${new Date(date).getFullYear()}`;
 
-const Award: React.FunctionComponent<AwardData> = ({
+const Achievement: React.FunctionComponent<AchievementData> = ({
   title,
   link,
   project,
@@ -163,9 +163,9 @@ const Award: React.FunctionComponent<AwardData> = ({
   );
 };
 
-const Awards = () => (
+const Achievements = () => (
   <Layout>
-    <SEO title="Awards" />
+    <SEO title="Achievements" />
     <Stack>
       {awards
         .sort(
@@ -175,7 +175,7 @@ const Awards = () => (
         )
         .map((award, key) => (
           <>
-            <Award key={key} {...award} />
+            <Achievement key={key} {...award} />
             {key < awards.length - 1 && <Divider />}
           </>
         ))}
@@ -183,4 +183,4 @@ const Awards = () => (
   </Layout>
 );
 
-export default Awards;
+export default Achievements;

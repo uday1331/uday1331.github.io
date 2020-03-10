@@ -1,21 +1,29 @@
 import React from "react";
 
 import { SEO, Layout, InternalLink } from "../components";
-import { Text, Box } from "@chakra-ui/core";
+import { Text, Box, Heading, Stack, Divider, PseudoBox } from "@chakra-ui/core";
 import { graphql } from "gatsby";
 
 interface BlogData {
   title: string;
+  date: string;
   path: string;
   excerpt: string;
 }
 
-const Blog: React.FC<BlogData> = ({ title, path, excerpt }) => (
+const Blog: React.FC<BlogData> = ({ title, path, excerpt, date }) => (
   <Box>
     <InternalLink to={path}>
-      <Text>{title}</Text>
-      <Text>{excerpt}</Text>
+      <Heading size="md" marginBottom={1}>
+        {title}
+      </Heading>
     </InternalLink>
+    <Text fontSize="xs" fontWeight="light">
+      {date}
+    </Text>
+    <Text fontSize="sm" fontWeight="light">
+      {excerpt}
+    </Text>
   </Box>
 );
 
@@ -30,9 +38,13 @@ const Blogs: React.FC<any> = ({
   return (
     <Layout>
       <SEO title="Projects" />
-      {blogs.map((blog, key) => (
-        <Blog key={key} {...blog} />
-      ))}
+      <Stack spacing={3}>
+        {blogs.map((blog, key) => (
+          <PseudoBox marginBottom={4}>
+            <Blog key={key} {...blog} />
+          </PseudoBox>
+        ))}
+      </Stack>
     </Layout>
   );
 };
@@ -50,6 +62,7 @@ export const blogsQuery = graphql`
             path
             title
             excerpt
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

@@ -1,7 +1,15 @@
 import React from "react";
 
 import { SEO, Layout, InternalLink } from "../components";
-import { Text, Box, Heading, Grid } from "@chakra-ui/core";
+import {
+  Text,
+  Box,
+  Heading,
+  Grid,
+  Switch,
+  FormLabel,
+  Flex
+} from "@chakra-ui/core";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import { truncateText } from "../utils";
@@ -12,6 +20,7 @@ interface ProjectData {
   description: string;
   preview_image: any;
   date: string;
+  highlight: boolean;
 }
 const Project: React.FC<ProjectData> = ({
   title,
@@ -41,16 +50,31 @@ const Projects: React.FC<any> = ({
     allMdx: { edges }
   }
 }) => {
+  const [showAll, setshowAll] = React.useState(false);
+
   const projects = edges.map(
     ({ node: { frontmatter } }: any) => frontmatter
   ) as ProjectData[];
   return (
     <Layout>
       <SEO title="Projects" />
+      <Flex align="center" justify="flex-end" paddingRight={2}>
+        <FormLabel htmlFor="show-all" fontWeight="light">
+          See All
+        </FormLabel>
+        <Switch
+          id="show-all"
+          aria-label="Show All Projects"
+          value={showAll}
+          onChange={() => setshowAll(!showAll)}
+        />
+      </Flex>
       <Grid templateColumns="repeat( auto-fit, minmax(150px, 1fr) )" gap={6}>
-        {projects.map((project, key) => (
-          <Project key={key} {...project} />
-        ))}
+        {projects
+          .filter(({ highlight }) => showAll || highlight)
+          .map((project, key) => (
+            <Project key={key} {...project} />
+          ))}
       </Grid>
     </Layout>
   );
@@ -69,6 +93,7 @@ export const projectsQuery = graphql`
             path
             title
             description
+            highlight
             date(formatString: "MMMM DD, YYYY")
             preview_image {
               childImageSharp {

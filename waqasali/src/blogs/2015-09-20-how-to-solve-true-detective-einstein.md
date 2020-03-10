@@ -2,7 +2,7 @@
 path: "/blog/how-to-solve-true-detective-einstein/"
 title: How to Solve the True Detective Einstein Puzzle?
 excerpt: "If you like problem-solving or attended the FGS Science Carnival 2015, this is for you."
-created: 2015-09-20T15:45:08.495+05:00
+date: 2015-09-20T15:45:08.495+05:00
 tags: [intro]
 ---
 
