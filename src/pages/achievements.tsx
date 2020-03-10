@@ -36,12 +36,6 @@ const awards: AchievementData[] = [
     link: "https://www.datavalleyhk.com/bigdatathon"
   },
   {
-    rank: 1,
-    awards: ["Champion"],
-    date: "11/01/2017",
-    title: "SCB (Shanghai Commercial Bank) Regional Finals in Hong Kong"
-  },
-  {
     rank: 2,
     awards: ["Runner-up", "Best Presentation"],
     date: "06/01/2019",
@@ -70,8 +64,8 @@ const awards: AchievementData[] = [
     awards: ["Runner-up", "Most Innovative Award"],
     date: "05/01/2018",
     title: "Imagine Cup Hong Kong Finals",
-    link: "https://www.facebook.com/msphongkong/posts/1028750247300048",
-    project: "/work/creditsense"
+    link: "https://www.facebook.com/msphongkong/posts/1028750247300048"
+    // project: "/work/creditsense"
   },
   {
     rank: 2,
@@ -87,19 +81,19 @@ const awards: AchievementData[] = [
     date: "12/01/2017",
     title: "SCB (Shanghai Commercial Bank) Greater China Fintech Competition"
   },
-  {
-    rank: 2,
-    awards: ["Runner-up"],
-    date: "12/01/2017",
-    title: "HSBC Safeguard App Competition"
-  },
-  {
-    rank: 3,
-    awards: ["3rd Place"],
-    date: "08/01/2017",
-    title: "//oneweek (Microsoft Internal Hackathon)",
-    project: "/work/metis"
-  },
+  // {
+  //   rank: 2,
+  //   awards: ["Runner-up"],
+  //   date: "12/01/2017",
+  //   title: "HSBC Safeguard App Competition"
+  // },
+  // {
+  //   rank: 3,
+  //   awards: ["3rd Place"],
+  //   date: "08/01/2017",
+  //   title: "//oneweek (Microsoft Internal Hackathon)",
+  //   project: "/work/metis"
+  // },
   {
     rank: 4,
     awards: ["Incubated"],
@@ -114,8 +108,8 @@ const awards: AchievementData[] = [
     date: "05/01/2018",
     title: "CCMF (Cyberbort Creative Micro Fund)",
     link:
-      "https://www.cyberport.hk/en/about_cyberport/cyberport_youth/cyberport_creative_micro_fund",
-    project: "/work/creditsense"
+      "https://www.cyberport.hk/en/about_cyberport/cyberport_youth/cyberport_creative_micro_fund"
+    // project: "/work/creditsense"
   }
 ];
 
