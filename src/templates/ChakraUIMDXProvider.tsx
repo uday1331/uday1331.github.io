@@ -9,11 +9,14 @@ import {
   List,
   ListItem,
   Heading,
-  Image
+  Image,
+  useColorMode
 } from "@chakra-ui/core";
 import { MDXProviderComponentsProp } from "@mdx-js/react";
+import { getPrimaryColor } from "../theme";
 
 export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
+  const { colorMode } = useColorMode();
   return {
     p: props => <Text mb={2} {...props} />,
     h1: props => <Heading my={4} as={`h1`} size="2xl" {...props} />,
@@ -29,7 +32,9 @@ export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
     strong: props => <Text as="strong" {...props} />,
     delete: props => <Text as="del" {...props} />,
     inlineCode: Code,
-    a: Link,
+    a: props => (
+      <Link color={getPrimaryColor(colorMode)} {...props} isExternal />
+    ),
     code: props => (
       <pre>
         <Code p={2} {...props} />
