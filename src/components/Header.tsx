@@ -4,16 +4,16 @@ import { globalHistory } from "@reach/router";
 import {
   Flex,
   Heading,
-  IconButton,
   useColorMode,
   Box,
   Text,
-  Link
+  Link,
+  IconButton
 } from "@chakra-ui/core";
 
 import { Portrait } from ".";
 import { InternalLink } from "./InternalLink";
-import customTheme, { getPrimaryColor } from "../theme";
+import { getPrimaryColor } from "../theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   siteTitle
@@ -39,11 +39,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
         <IconButton
           aria-label="Dark Mode"
           size="xs"
-          background={
-            colorMode === "dark"
-              ? customTheme.colors.gray[700]
-              : customTheme.colors.gray[100]
-          }
+          variant="outline"
           icon={colorMode === "dark" ? "sun" : "moon"}
           onClick={toggleColorMode}
         />
