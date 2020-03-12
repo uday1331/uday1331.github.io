@@ -9,16 +9,20 @@ export const Layout: React.FunctionComponent<{
   children: React.ReactNode;
 }> = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query SiteQuery {
       site {
         siteMetadata {
           title
           lastUpdated
         }
       }
+      gitCommit(latest: { eq: true }) {
+        hash
+      }
     }
   `);
   const { title, lastUpdated } = data.site.siteMetadata;
+  const { hash } = data.gitCommit;
 
   return (
     <Flex
@@ -32,7 +36,7 @@ export const Layout: React.FunctionComponent<{
       <Flex as="main" direction="column" flex={1} marginY={4}>
         {children}
       </Flex>
-      <Footer lastUpdated={lastUpdated} />
+      <Footer lastUpdated={lastUpdated} shortHash={hash.slice(0, 5)} />
     </Flex>
   );
 };

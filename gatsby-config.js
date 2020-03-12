@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Waqas Ali`,
     description: `Hi, I am Waqas and this is my personal website describing my projects, experience and achievements so far.`,
-    lastUpdated: `10 March 2020`,
+    lastUpdated: `13 March 2020`,
     twitter: "@totally_waqas",
     github: "WaqasAliAbbasi",
     linkedin: "waqasaliabbasi",
@@ -33,7 +33,6 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Waqas Ali`,
-        short_name: `waqas-ali`,
         lang: `en`,
         start_url: `/`,
         background_color: `#fff`,
@@ -70,7 +69,8 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    `gatsby-source-local-git`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
