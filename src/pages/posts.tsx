@@ -4,14 +4,14 @@ import { graphql } from "gatsby";
 
 import { SEO, Layout, InternalLink } from "../components";
 
-interface BlogData {
+interface PostData {
   title: string;
   date: string;
   path: string;
   excerpt: string;
 }
 
-const Blog: React.FC<BlogData> = ({ title, path, excerpt, date }) => (
+const Post: React.FC<PostData> = ({ title, path, excerpt, date }) => (
   <Box>
     <InternalLink to={path}>
       <Heading size="md" marginBottom={1}>
@@ -27,21 +27,21 @@ const Blog: React.FC<BlogData> = ({ title, path, excerpt, date }) => (
   </Box>
 );
 
-const Blogs: React.FC<any> = ({
+const Posts: React.FC<any> = ({
   data: {
     allMdx: { edges }
   }
 }) => {
-  const blogs = edges.map(
+  const posts = edges.map(
     ({ node: { frontmatter } }: any) => frontmatter
-  ) as BlogData[];
+  ) as PostData[];
   return (
     <Layout>
-      <SEO title="Projects" />
+      <SEO title="Posts" />
       <Stack spacing={3}>
-        {blogs.map((blog, key) => (
+        {posts.map((post, key) => (
           <PseudoBox marginBottom={4}>
-            <Blog key={key} {...blog} />
+            <Post key={key} {...post} />
           </PseudoBox>
         ))}
       </Stack>
@@ -49,10 +49,10 @@ const Blogs: React.FC<any> = ({
   );
 };
 
-export const blogsQuery = graphql`
+export const postsQuery = graphql`
   query {
     allMdx(
-      filter: { fileAbsolutePath: { regex: "/src/blogs/" } }
+      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
     ) {
@@ -70,4 +70,4 @@ export const blogsQuery = graphql`
   }
 `;
 
-export default Blogs;
+export default Posts;

@@ -1,5 +1,5 @@
 ---
-path: "/blog/how-to-test-haskell"
+path: "/posts/how-to-test-in-haskell-using-comments"
 title: How to test in Haskell using comments?
 date: "2020-03-13T01:14:00.000+08:00"
 excerpt: "If you want to easily test your functions in Haskell, you can do so by writing inputs and their expected responses right above your functions as comments. All you need is a package called doctest."

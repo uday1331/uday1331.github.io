@@ -22,7 +22,7 @@ export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
   const navigationBar: { title: string; path: string }[] = [
     { title: "Awards", path: "/achievements" },
     { title: "Projects", path: "/work" },
-    { title: "Blog", path: "/blog" }
+    { title: "Posts", path: "/posts" }
   ];
 
   return (

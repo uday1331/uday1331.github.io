@@ -44,12 +44,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
-  const blogTemplate = path.resolve(`src/templates/BlogTemplate.tsx`);
+  const postTemplate = path.resolve(`src/templates/PostTemplate.tsx`);
 
-  const blogsResult = await graphql(`
+  const postsResult = await graphql(`
     {
       allMdx(
-        filter: { fileAbsolutePath: { regex: "/src/blogs/" } }
+        filter: { fileAbsolutePath: { regex: "/src/posts/" } }
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
@@ -64,15 +64,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   `);
 
-  if (blogsResult.errors) {
+  if (postsResult.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`);
     return;
   }
 
-  blogsResult.data.allMdx.edges.forEach(({ node }) => {
+  postsResult.data.allMdx.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
-      component: blogTemplate,
+      component: postTemplate,
       context: {}
     });
   });

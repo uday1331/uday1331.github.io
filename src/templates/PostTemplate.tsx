@@ -7,7 +7,7 @@ import { MDXProvider } from "@mdx-js/react";
 import { Layout, SEO } from "../components";
 import { ChakraUIMDXProvider } from "./ChakraUIMDXProvider";
 
-const BlogTemplate: React.FunctionComponent<any> = ({ data }) => {
+const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { mdx } = data;
   const {
     frontmatter: { title, date, excerpt },
@@ -26,7 +26,7 @@ const BlogTemplate: React.FunctionComponent<any> = ({ data }) => {
   );
 };
 
-export const blogQuery = graphql`
+export const postQuery = graphql`
   query($path: String!) {
     mdx(frontmatter: { path: { eq: $path } }) {
       body
@@ -40,4 +40,4 @@ export const blogQuery = graphql`
   }
 `;
 
-export default BlogTemplate;
+export default PostTemplate;
