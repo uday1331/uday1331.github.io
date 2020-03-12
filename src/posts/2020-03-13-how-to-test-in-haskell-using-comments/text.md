@@ -149,7 +149,7 @@ main = doctest ["-isrc", "src/Math.hs"]
 
 ![Tests pass successfully](./stack_test_2.png)
 
-When you add more modules, simply add them to this list `["-isrc", "src/Math.hs"]` in `src/test/Spec.hs` to make `doctest` look for tests in them.
+When you add more modules, simply add them to this list `["-isrc", "src/Math.hs"]` in `test/Spec.hs` to make `doctest` look for tests in them.
 
 ### Note
 
