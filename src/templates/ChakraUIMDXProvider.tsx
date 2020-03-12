@@ -1,4 +1,6 @@
-// Reference: https://github.com/mustaphaturhan/chakra-ui-markdown-renderer
+// References:
+// - https://github.com/mustaphaturhan/chakra-ui-markdown-renderer
+// - https://github.com/KenzoBenzo/personal-portfolio/blob/master/src/components/docsComponents/MDXComponents.jsx
 
 import React from "react";
 import {
@@ -6,11 +8,11 @@ import {
   Code,
   Divider,
   Link,
-  List,
-  ListItem,
   Heading,
   Image,
-  useColorMode
+  useColorMode,
+  Box,
+  Flex
 } from "@chakra-ui/core";
 import { MDXProviderComponentsProp } from "@mdx-js/react";
 import { getPrimaryColor } from "../theme";
@@ -18,15 +20,15 @@ import { getPrimaryColor } from "../theme";
 export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
   const { colorMode } = useColorMode();
   return {
-    p: props => <Text mb={2} {...props} />,
-    h1: props => <Heading my={4} as={`h1`} size="2xl" {...props} />,
-    h2: props => <Heading my={4} as={`h2`} size="xl" {...props} />,
-    h3: props => <Heading my={4} as={`h3`} size="l" {...props} />,
-    h4: props => <Heading my={4} as={`h4`} size="md" {...props} />,
-    h5: props => <Heading my={4} as={`h5`} size="sm" {...props} />,
-    h6: props => <Heading my={4} as={`h6`} size="xs" {...props} />,
+    p: props => <Text marginBottom={2} {...props} />,
+    h1: props => <Heading marginY={4} as={`h1`} size="2xl" {...props} />,
+    h2: props => <Heading marginY={4} as={`h2`} size="xl" {...props} />,
+    h3: props => <Heading marginY={4} as={`h3`} size="l" {...props} />,
+    h4: props => <Heading marginY={4} as={`h4`} size="md" {...props} />,
+    h5: props => <Heading marginY={4} as={`h5`} size="sm" {...props} />,
+    h6: props => <Heading marginY={4} as={`h6`} size="xs" {...props} />,
     thematicBreak: Divider,
-    blockquote: props => <Code p={2} {...props} />,
+    blockquote: props => <Code padding={2} {...props} />,
     pre: props => <Text as="pre" {...props} />,
     em: props => <Text as="em" {...props} />,
     strong: props => <Text as="strong" {...props} />,
@@ -36,15 +38,13 @@ export const ChakraUIMDXProvider = (): MDXProviderComponentsProp => {
       <Link color={getPrimaryColor(colorMode)} {...props} isExternal />
     ),
     code: props => (
-      <pre>
-        <Code p={2} {...props} />
-      </pre>
+      <Flex as="pre" justifyContent="center" marginY={2}>
+        <Code p={2} {...props} whiteSpace="pre-wrap" />
+      </Flex>
     ),
-    ul: props => <List pl={4} pb={3} styleType="disc" {...props} spacing={1} />,
-    ol: props => (
-      <List pl={4} pb={3} as="ol" styleType="decimal" {...props} spacing={1} />
-    ),
-    li: ListItem,
+    ul: props => <Box as="ul" marginY={2} paddingLeft={8} {...props} />,
+    ol: props => <Box as="ol" marginY={2} paddingLeft={8} {...props} />,
+    li: props => <Box as="li" {...props} />,
     img: Image
   };
 };
