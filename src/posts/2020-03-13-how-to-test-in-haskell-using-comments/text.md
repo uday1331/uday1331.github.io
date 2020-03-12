@@ -1,7 +1,7 @@
 ---
 path: "/posts/how-to-test-in-haskell-using-comments"
 title: How to test in Haskell using comments?
-date: "2020-03-13T01:14:00.000+08:00"
+date: "2020-03-13T03:46:00.000+08:00"
 excerpt: "If you want to easily test your functions in Haskell, you can do so by writing inputs and their expected responses right above your functions as comments. All you need is a package called doctest."
 ---
 
@@ -135,9 +135,9 @@ tests:
 
 ![Test suite not implemented](./stack_test_1.png)
 
-If you go to the actual test file in `src/test/Spec.hs` you can see there indeed are no tests and we haven't told stack to search in our `src` files. Let's fix this.
+If you go to the actual test file in `test/Spec.hs` you can see that there indeed are no tests. We need to somehow tell stack to look for tests in our `src` files instead.
 
-3. Instead of writing our tests in `Spec.hs` we want stack to scan all our files for tests and run them if any exist. To accomplish that, remove everything in `Spec.ts` and add the following line:
+3. To do that, clear the contents of `test/Spec.hs` file and replace it with this:
 
 ```
 import Test.DocTest
@@ -145,11 +145,11 @@ import Test.DocTest
 main = doctest ["-isrc", "src/Math.hs"]
 ```
 
-4. Now, if you run `stack test` it will run the 2 tests we wrote earlier. And as you can see they pass (Nice!).
+4. Now, if you run `stack test` it will run the 2 tests we wrote earlier. That's it, we are done!
 
 ![Tests pass successfully](./stack_test_2.png)
 
-When you add more modules, simply add them to the list `["-isrc", "src/Math.hs"]` in `src/test/Spec.hs` and `doctest` will scan them for any tests.
+When you add more modules, simply add them to this list `["-isrc", "src/Math.hs"]` in `src/test/Spec.hs` to make `doctest` look for tests in them.
 
 ### Note
 
