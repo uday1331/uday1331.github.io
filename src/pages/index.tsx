@@ -12,7 +12,7 @@ import {
   StatHelpText,
   Divider,
   Text,
-  Flex
+  Flex,
 } from "@chakra-ui/core";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -63,14 +63,14 @@ const IndexPage = () => {
       <Stack shouldWrapChildren>
         <Attribute
           attribute="Currently"
-          detail="Credit Suisse"
-          additionalInfo="Software Engineer"
+          detail="KM.ON"
+          additionalInfo="Software Engineer Intern"
         />
         <Divider />
         <Attribute
           attribute="Alma Mater"
           detail="University of Hong Kong"
-          additionalInfo="Class of 2020"
+          additionalInfo="Class of 2022"
         />
       </Stack>
       <Divider />

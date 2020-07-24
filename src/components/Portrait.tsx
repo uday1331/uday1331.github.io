@@ -5,7 +5,7 @@ import { Avatar } from "@chakra-ui/core";
 export const Portrait = () => {
   const data = useStaticQuery(graphql`
     query {
-      portraitImage: file(relativePath: { eq: "waqas-ali.jpg" }) {
+      portraitImage: file(relativePath: { eq: "uday-jain.jpg" }) {
         childImageSharp {
           fixed {
             src

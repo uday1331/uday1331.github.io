@@ -40,40 +40,40 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: node.frontmatter.path,
       component: projectTemplate,
-      context: {}
+      context: {},
     });
   });
 
-  const postTemplate = path.resolve(`src/templates/PostTemplate.tsx`);
+  //   const postTemplate = path.resolve(`src/templates/PostTemplate.tsx`);
 
-  const postsResult = await graphql(`
-    {
-      allMdx(
-        filter: { fileAbsolutePath: { regex: "/src/posts/" } }
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-              path
-            }
-          }
-        }
-      }
-    }
-  `);
+  //   const postsResult = await graphql(`
+  //     {
+  //       allMdx(
+  //         filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+  //         sort: { order: DESC, fields: [frontmatter___date] }
+  //         limit: 1000
+  //       ) {
+  //         edges {
+  //           node {
+  //             frontmatter {
+  //               path
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `);
 
-  if (postsResult.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`);
-    return;
-  }
+  //   if (postsResult.errors) {
+  //     reporter.panicOnBuild(`Error while running GraphQL query.`);
+  //     return;
+  //   }
 
-  postsResult.data.allMdx.edges.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.path,
-      component: postTemplate,
-      context: {}
-    });
-  });
+  //   postsResult.data.allMdx.edges.forEach(({ node }) => {
+  //     createPage({
+  //       path: node.frontmatter.path,
+  //       component: postTemplate,
+  //       context: {}
+  //     });
+  //   });
 };

@@ -8,7 +8,7 @@ import {
   Box,
   Text,
   Link,
-  IconButton
+  IconButton,
 } from "@chakra-ui/core";
 
 import { Portrait } from ".";
@@ -16,13 +16,12 @@ import { InternalLink } from "./InternalLink";
 import { getPrimaryColor } from "../theme";
 
 export const Header: React.FunctionComponent<{ siteTitle: string }> = ({
-  siteTitle
+  siteTitle,
 }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   const navigationBar: { title: string; path: string }[] = [
     { title: "Awards", path: "/achievements" },
     { title: "Projects", path: "/work" },
-    { title: "Posts", path: "/posts" }
   ];
 
   return (

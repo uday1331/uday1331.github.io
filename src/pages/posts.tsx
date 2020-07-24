@@ -1,6 +1,5 @@
 import React from "react";
 import { Text, Box, Heading, Stack, PseudoBox } from "@chakra-ui/core";
-import { graphql } from "gatsby";
 
 import { SEO, Layout, InternalLink } from "../components";
 
@@ -29,8 +28,8 @@ const Post: React.FC<PostData> = ({ title, path, excerpt, date }) => (
 
 const Posts: React.FC<any> = ({
   data: {
-    allMdx: { edges }
-  }
+    allMdx: { edges },
+  },
 }) => {
   const posts = edges.map(
     ({ node: { frontmatter } }: any) => frontmatter
@@ -49,25 +48,23 @@ const Posts: React.FC<any> = ({
   );
 };
 
-export const postsQuery = graphql`
-  query {
-    allMdx(
-      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
-      edges {
-        node {
-          frontmatter {
-            path
-            title
-            excerpt
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`;
-
-export default Posts;
+// export const postsQuery = graphql`
+//   query {
+//     allMdx(
+//       filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+//       sort: { order: DESC, fields: [frontmatter___date] }
+//       limit: 1000
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             path
+//             title
+//             excerpt
+//             date(formatString: "MMMM DD, YYYY")
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;

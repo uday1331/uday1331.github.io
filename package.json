@@ -1,9 +1,9 @@
 {
-  "name": "waqas-ali",
+  "name": "uday-jain",
   "private": true,
-  "description": "Personal website of Waqas Ali.",
+  "description": "Personal website of Uday Jain.",
   "version": "0.1.0",
-  "author": "Waqas Ali <waqas.abbasi@outlook.com>",
+  "author": "Uday Jain <udayjain3112@gmail.com>",
   "dependencies": {
     "@chakra-ui/core": "^0.6.1",
     "@emotion/core": "^10.0.28",
@@ -11,7 +11,7 @@
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
     "emotion-theming": "^10.0.27",
-    "gatsby": "^2.19.7",
+    "gatsby": "^2.24.9",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-chakra-ui": "^0.1.4",
     "gatsby-plugin-google-analytics": "^2.1.37",
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WaqasAliAbbasi/WaqasAliAbbasi.github.io"
+    "url": "https://github.com/uday1331/UdayJain.github.io"
   },
   "bugs": {
-    "url": "https://github.com/WaqasAliAbbasi/WaqasAliAbbasi.github.io/issues"
+    "url": "https://github.com/uday1331/UdayJain.github.io/issues"
   }
 }

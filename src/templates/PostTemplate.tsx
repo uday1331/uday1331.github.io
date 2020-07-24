@@ -11,7 +11,7 @@ const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
   const { mdx } = data;
   const {
     frontmatter: { title, date, excerpt },
-    body
+    body,
   } = mdx;
   return (
     <Layout>
@@ -26,18 +26,16 @@ const PostTemplate: React.FunctionComponent<any> = ({ data }) => {
   );
 };
 
-export const postQuery = graphql`
-  query($path: String!) {
-    mdx(frontmatter: { path: { eq: $path } }) {
-      body
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-        excerpt
-      }
-    }
-  }
-`;
-
-export default PostTemplate;
+// export const postQuery = graphql`
+//   query($path: String!) {
+//     mdx(frontmatter: { path: { eq: $path } }) {
+//       body
+//       frontmatter {
+//         date(formatString: "MMMM DD, YYYY")
+//         path
+//         title
+//         excerpt
+//       }
+//     }
+//   }
+// `;
