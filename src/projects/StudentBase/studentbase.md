@@ -40,5 +40,5 @@ A platform for high school students to share useful resources with each other. R
 
 ## Team
 
+- [Waqas Ali](https://www.linkedin.com/in/waqasaliabbasi/)
 - [Ahsan Syed](https://www.linkedin.com/in/ahsan-syed-930a2014a/)
-- [Uday Jain](https://www.linkedin.com/in/uday-jain-862a40174/)

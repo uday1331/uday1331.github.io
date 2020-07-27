@@ -6,7 +6,7 @@ import {
   Grid,
   Switch,
   FormLabel,
-  Flex
+  Flex,
 } from "@chakra-ui/core";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
@@ -28,7 +28,7 @@ const Project: React.FC<ProjectData> = ({
   path,
   description,
   preview_image,
-  date
+  date,
 }) => (
   <InternalLink to={path}>
     <Box padding={2}>
@@ -48,8 +48,8 @@ const Project: React.FC<ProjectData> = ({
 
 const Projects: React.FC<any> = ({
   data: {
-    allMdx: { edges }
-  }
+    allMdx: { edges },
+  },
 }) => {
   const [showAll, setshowAll] = React.useState(false);
 

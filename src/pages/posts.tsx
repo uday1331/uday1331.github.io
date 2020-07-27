@@ -68,3 +68,5 @@ const Posts: React.FC<any> = ({
 //     }
 //   }
 // `;
+
+export default Posts;

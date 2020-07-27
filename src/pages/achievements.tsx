@@ -22,13 +22,12 @@ interface AchievementData {
 const awards: AchievementData[] = [
   {
     rank: 1,
-    awards: ["Champion"],
-    date: "11/01/2019",
-    title:
-      "Chengdu80 2019 - Inter-university fintech competition in Chengdu, China",
+    awards: ["Runner-up", "Best Design"],
+    date: "3/11/2019",
+    title: "Fintech Week Hackathon - by WHub, DBS and HKECIC, Hong Kong",
     link:
-      "https://www.cs.hku.hk/news-events/news-and-announcements/20191104_Chengdu_2019",
-    project: "/work/dragonsearch",
+      "https://medium.com/whub/highlight-from-the-fintech-week-hackathon-2019-75007b1f9992#:~:text=The%20FinTech%20Week%20Hackathon%202019%20by%20WHub%2C%20DBS%20and%20HKECIC,place%20between%201st%20%E2%80%94%203rd%20November.&text=On%20the%20evening%20of%201st,Kong%20at%20the%20Kerry%20Hotel",
+    project: "/work/navis",
   },
 ];
 
