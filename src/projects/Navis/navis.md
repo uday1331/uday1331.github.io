@@ -1,7 +1,7 @@
 ---
 path: "/work/navis"
 title: "Navis"
-date: "2020-11-03T12:00:00.000+08:00"
+date: "2019-11-03T12:00:00.000+08:00"
 highlight: false
 description: "A tailor made web app to improve insurance compliance."
 preview_image: navis_1.png

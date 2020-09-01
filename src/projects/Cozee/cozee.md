@@ -1,7 +1,7 @@
 ---
 path: "/work/cozee"
 title: "Cozee"
-date: "2020-10-27T12:00:00.000+08:00"
+date: "2019-10-27T12:00:00.000+08:00"
 highlight: false
 description: "A furniture aggregator which brings furniture sellers and customers together using augmented reality."
 preview_image: cozee_1.png
