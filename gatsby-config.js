@@ -10,14 +10,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-typescript`,
-    "gatsby-plugin-typescript-checker",
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-46712607-5",
-        head: true,
-      },
-    },
+    // "gatsby-plugin-typescript-checker",
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: "UA-46712607-5",
+    //     head: true,
+    //   },
+    // },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
