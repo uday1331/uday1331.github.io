@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-typescript`,
-    // "gatsby-plugin-typescript-checker",
+    "gatsby-plugin-typescript-checker",
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
