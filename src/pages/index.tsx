@@ -62,7 +62,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Stack shouldWrapChildren>
         <Attribute
-          attribute="Currently"
+          attribute="Latest"
           detail="KM.ON"
           additionalInfo="Software Engineer Intern"
         />
